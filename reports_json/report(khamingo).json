@@ -1,0 +1,90 @@
+{
+  "criteria": {
+    "A1": {
+      "band": 3,
+      "evidence": "The learning objective is clear and specific, with measurable verbs. The student-facing objective is also well-stated. However, the outcomes could be more explicitly linked to the aims.",
+      "notes": ""
+    },
+    "A2": {
+      "band": 4,
+      "evidence": "Each key ILO has at least one learning activity and one assessment task at the same cognitive level. The activities and assessments mirror the intended performances, with clear alignment between them.",
+      "notes": ""
+    },
+    "A3": {
+      "band": 2,
+      "evidence": "The lesson plan has a coherent sequence of activities, but there are some minor issues with pacing and timing. Steps are present but uneven.",
+      "notes": ""
+    },
+    "B1": {
+      "band": 4,
+      "evidence": "The ICAP engagement mix is well-balanced, with ≥70% C+I and ≥30% Interactive. The plan also includes credible plans to realize this balance.",
+      "notes": ""
+    },
+    "B2": {
+      "band": 3,
+      "evidence": "The generative tasks and prompts are frequent and well-framed across episodes, but they could be more tightly aligned to outcomes.",
+      "notes": ""
+    },
+    "B3": {
+      "band": 4,
+      "evidence": "Whole-class participation and interactivity are high, with all-student response routines and structured group work. Roles and joint products are also clearly defined.",
+      "notes": ""
+    },
+    "C1": {
+      "band": 2,
+      "evidence": "There are some retrieval opportunities, but they could be more frequent and of higher effort.",
+      "notes": ""
+    },
+    "C2": {
+      "band": 3,
+      "evidence": "Formative checks and actionable feedback are present, with aligned exit tickets and mini-quizzes. However, the follow-up actions could be more explicitly stated.",
+      "notes": ""
+    },
+    "C3": {
+      "band": 1,
+      "evidence": "There is no clear spacing between retrievals, and delayed cumulative checks are not planned.",
+      "notes": ""
+    },
+    "D1": {
+      "band": 2,
+      "evidence": "Worked examples and guided practice are present, but they could be more explicitly tied to the outcomes and with clearer timing.",
+      "notes": ""
+    },
+    "D2": {
+      "band": 3,
+      "evidence": "Scaffolds and fading are planned, with explicit steps for reducing support. However, the fade-out could be more clearly timed.",
+      "notes": ""
+    },
+    "D3": {
+      "band": 2,
+      "evidence": "Independent practice mirrors models, but the monitoring plan is not explicitly stated.",
+      "notes": ""
+    },
+    "E1": {
+      "band": 3,
+      "evidence": "The progression from simple to complex is clear, with some segmentation of hard elements. However, goal-free early tasks are not present.",
+      "notes": ""
+    },
+    "E2": {
+      "band": 4,
+      "evidence": "Integrated materials and concise on-screen text are used, with narration aligned with visuals. Brief processing pauses are also planned.",
+      "notes": ""
+    },
+    "E3": {
+      "band": 1,
+      "evidence": "There is no clear early probe or differentiation for novices. Supports do not fade, and quick effort/load checks are not present.",
+      "notes": ""
+    },
+    "F1": {
+      "band": 4,
+      "evidence": "Multiple means of representation, action, and engagement are provided, with clear instructions and proactive accommodations.",
+      "notes": ""
+    },
+    "F2": {
+      "band": 3,
+      "evidence": "Error-friendly norms and progress tracking are present. However, structured reflection linked to ILOs is not explicitly stated.",
+      "notes": ""
+    }
+  },
+  "global_notes": ""
+}

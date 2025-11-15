@@ -1,0 +1,145 @@
+Lesson plan: Artificial Intelligence Literacy Learning 
+
+Note: This tool needs your expertise to be excellent. Double-check Khanmigo's accuracy and ensure wording is appropriate for any sensitive topics.
+
+Learning objective
+
+Students will define AI literacy, identify at least three distinct use cases of AI across industries, and critically analyze the ethical, social, and economic implications of these applications using real-world examples.
+
+Student-facing objective: By the end of this lesson, I'll be able to explain what AI literacy means, give examples of how AI is used in different fields, and discuss the impact of these uses on society.
+
+Standards: NY College and Career Readiness Standards (CCRS)
+
+Learning activities
+
+Warm-up
+
+Display four brief statements about technology and intelligence:
+
+"AI is the same as human intelligence."
+
+"AI can learn from data."
+
+"AI always makes unbiased decisions."
+
+"AI is used in healthcare, finance, and education."
+
+Ask students: "Which one doesn’t belong?" Have students discuss in pairs, then share rationales. Record responses. Guide students to notice misconceptions and accurate features, priming them to define AI literacy and explore real-world use cases.
+
+Direct instruction
+
+Define AI literacy. Present the definition: "AI literacy is the ability to understand, use, and critically evaluate artificial intelligence technologies and their impact." Ask students to identify key terms in the definition. Briefly explain why AI literacy matters in modern society.
+
+Identify use cases. Display three real-world scenarios:
+
+Healthcare: AI analyzes medical images to detect disease. Describe a case where AI flagged a possible tumor in a patient’s scan. Ask students to consider what skills are needed to interpret AI results.
+
+Finance: AI algorithms detect fraudulent transactions. Present a scenario where a bank uses AI to monitor for unusual account activity. Ask students to identify the benefits and risks.
+
+Education: AI-powered tutoring systems personalize learning. Describe a classroom using adaptive software to support diverse learners. Ask students to discuss how teachers and students interact with AI tools.
+
+Analyze implications. For each use case, prompt students to consider:
+
+Ethical: Who is responsible if AI makes a mistake?
+
+Social: How does AI change roles or relationships in the field?
+
+Economic: What jobs or costs are affected by AI adoption?
+
+   For each, provide a brief scenario and ask students to brainstorm possible impacts. Mark where you will provide solution steps and facilitate discussion.
+
+Guided practice
+
+Use Think, Pair, Share to deepen conceptual understanding and application.
+
+Pose the prompt: "Select one AI use case from healthcare, finance, or education. Identify a potential ethical, social, or economic implication. How should an AI-literate professional respond?"
+
+Instruct students to think silently for 2 minutes, jotting notes.
+
+Pair students for 3 minutes to share and refine their ideas.
+
+Call on pairs to share responses with the class. Scribe key points on the board.
+
+Facilitate brief whole-class discussion, connecting student ideas to the definition of AI literacy and the lesson’s use cases.
+
+Independent practice
+
+Direct students to complete the following exercise: Analyze a recent news article or case study describing an AI application in healthcare, finance, or education. Identify the core AI technology, its intended use, and at least one ethical, social, or economic implication. Write a concise summary and critical analysis (200 words). Link to the exercise here: [Insert exercise link].
+
+Circulate to observe students’ work, answer questions, and prompt deeper analysis. Offer support to clarify concepts, encourage critical thinking, and ensure students connect their analysis to the definition of AI literacy.
+
+Exit ticket
+
+Ask students to answer these questions on their way out:
+
+What is AI literacy and why is it important in today’s world?
+
+Name one real-world use case of AI and describe a possible ethical, social, or economic implication.
+
+What's one question you still have from today's lesson?
+
+Here are some suggested answers:
+
+Suggested answer to Question 1: AI literacy is the ability to understand, use, and critically evaluate AI technologies and their impact; it’s important because AI affects many aspects of society and decision-making.
+
+Suggested answer to Question 2: In healthcare, AI can help detect diseases, but it raises ethical concerns about responsibility if errors occur.
+
+Teacher resources
+
+Differentiation guide
+
+For striving learners:
+
+Provide sentence starters for analysis tasks.
+
+Allow use of graphic organizers to map ethical, social, and economic impacts.
+
+Pair with peers for guided discussion before independent writing.
+
+Offer examples of AI use cases with simplified language.
+
+Check for understanding with targeted questions during group work.
+
+For advanced learners:
+
+Challenge students to identify nuanced implications (e.g., algorithmic bias, data privacy).
+
+Encourage evaluation of multiple use cases or comparison across industries.
+
+Assign leadership roles in group activities.
+
+Invite students to propose solutions to ethical dilemmas.
+
+Allow extension: draft a brief policy recommendation or critique for an AI application.
+
+Notable definitions
+
+AI literacy: The ability to understand, use, and critically evaluate artificial intelligence technologies and their impact on society.
+
+Algorithmic bias: Systematic and repeatable errors in AI systems that result from flawed data or design, leading to unfair or prejudiced outcomes.
+
+Machine learning: A subset of AI that enables systems to learn from data, identify patterns, and make decisions with minimal human intervention.
+
+Required materials
+
+Projector or display screen for presenting scenarios and prompts
+
+Whiteboard and markers for scribing student responses
+
+Student devices (laptops/tablets) with internet access for article/case study research
+
+Printed handouts of AI use case scenarios (optional)
+
+Paper and pens for note-taking and exit ticket responses
+
+Lesson summary
+
+Warm-up (5 minutes)
+
+Direct instruction (15 minutes)
+
+Guided practice (10 minutes)
+
+Independent practice (15 minutes)
+
+Exit ticket (5 minutes)

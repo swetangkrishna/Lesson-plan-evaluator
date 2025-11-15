@@ -1,0 +1,90 @@
+{
+  "criteria": {
+    "A1": {
+      "band": 3,
+      "evidence": "The learning objective is clearly stated: 'By the end of this lesson, students will be able to define AI literacy, identify various use cases of AI across different industries, and critically analyze the implications of these use cases in real-world contexts.' The outcomes are mostly SMARTIE.",
+      "notes": ""
+    },
+    "A2": {
+      "band": 3,
+      "evidence": "The lesson plan includes a mix of activities that align with the learning objectives: lecture, group activity, presentations, and class discussion. However, there is no explicit alignment between the outcomes and assessment tasks.",
+      "notes": ""
+    },
+    "A3": {
+      "band": 2,
+      "evidence": "The lesson plan has a coherent sequence of activities (introduction, lecture, group activity, presentations, and debrief), but some steps are uneven. The timings seem realistic, with buffers between activities.",
+      "notes": ""
+    },
+    "B1": {
+      "band": 3,
+      "evidence": "The lesson plan includes a mix of Constructive/Interactive modes (lectures, group discussions, presentations) and Passive/Active modes (video clips, handouts). However, there is no explicit aim for ≥50% C+I with some I.",
+      "notes": ""
+    },
+    "B2": {
+      "band": 3,
+      "evidence": "The lesson plan includes some targeted generative prompts in key episodes (group activity and presentations), but they are not systematic or tightly aligned to outcomes.",
+      "notes": ""
+    },
+    "B3": {
+      "band": 2,
+      "evidence": "The lesson plan includes multiple all-student response moments (class discussion and Q&A sessions) and groups have prompts, but the interdependence is weak. There are no clear roles or shared products.",
+      "notes": ""
+    },
+    "C1": {
+      "band": 2,
+      "evidence": "The lesson plan includes one substantial retrieval opportunity (presentations), but it is not high-effort. There are no distinct retrieval episodes with high-effort formats.",
+      "notes": ""
+    },
+    "C2": {
+      "band": 3,
+      "evidence": "The lesson plan includes aligned exit tickets/mini-quizzes/oral checks (group activity and presentations), but there is no explicit regroup/reteach plan or scheduled time to apply feedback now.",
+      "notes": ""
+    },
+    "C3": {
+      "band": 2,
+      "evidence": "The lesson plan includes some spacing between retrievals, but it is not consistent. There are no planned delayed cumulative checks (≈2 days & 1 week).",
+      "notes": ""
+    },
+    "D1": {
+      "band": 3,
+      "evidence": "The lesson plan includes full worked examples or think-alouds (lectures and group activity), but there is no explicit timed, scaffolded 'we do' phase.",
+      "notes": ""
+    },
+    "D2": {
+      "band": 2,
+      "evidence": "The lesson plan includes some scaffolds (handouts summarizing key concepts and use cases), but they are not explicitly tied to tasks. There is no clear plan to fade supports and provoke self-explanation.",
+      "notes": ""
+    },
+    "D3": {
+      "band": 2,
+      "evidence": "The lesson plan includes independent tasks (presentations) that mirror models, but there is no explicit circulation/monitoring plan with error interception.",
+      "notes": ""
+    },
+    "E1": {
+      "band": 3,
+      "evidence": "The lesson plan has a clear simple→complex progression in the group activity and presentations. However, some topics are still overloaded.",
+      "notes": ""
+    },
+    "E2": {
+      "band": 2,
+      "evidence": "The lesson plan includes some integrated materials (video clips), but there is no explicit signaling or concise on-screen text. The narration is not aligned with visuals.",
+      "notes": ""
+    },
+    "E3": {
+      "band": 1,
+      "evidence": "There are no early probes, novices do not get more guidance, and supports do not fade. There are no quick effort/load checks to trigger specific adjustments.",
+      "notes": ""
+    },
+    "F1": {
+      "band": 3,
+      "evidence": "The lesson plan includes multiple means of representation/action/engagement (video clips, handouts, group discussions), but there is no explicit proactive accommodations for students with disabilities.",
+      "notes": ""
+    },
+    "F2": {
+      "band": 2,
+      "evidence": "The lesson plan includes some error-friendly norms and progress tracking, but the reflection linked to ILOs informs next steps. There are no structured reflection prompts or evidence that reflection generates conceptual change.",
+      "notes": ""
+    }
+  },
+  "global_notes": ""
+}

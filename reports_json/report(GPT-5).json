@@ -1,0 +1,90 @@
+{
+  "criteria": {
+    "A1": {
+      "band": 3,
+      "evidence": "The lesson plan includes SMARTIE outcomes (define AI literacy, identify various use cases of AI across different industries, and critically analyze the implications of these use cases in real-world contexts) with clear criteria.",
+      "notes": ""
+    },
+    "A2": {
+      "band": 3,
+      "evidence": "The lesson plan includes alignment between learning objectives (define AI literacy, identify various use cases of AI across different industries, and critically analyze the implications of these use cases in real-world contexts) and assessment tasks (exit ticket + micro-quiz).",
+      "notes": ""
+    },
+    "A3": {
+      "band": 2,
+      "evidence": "The lesson plan includes a coherent sequence (hook, definitions & scope, group activity, short presentations, class discussion & debrief, wrap-up & assessment) but with minor issues in step design.",
+      "notes": ""
+    },
+    "B1": {
+      "band": 3,
+      "evidence": "The lesson plan includes a mix of interactive and constructive modes (group activity, short presentations, class discussion & debrief), aiming for ≥50% C+I with some I.",
+      "notes": ""
+    },
+    "B2": {
+      "band": 3,
+      "evidence": "The lesson plan includes generative tasks and prompts that require explain/justify/compare/predict (group activity, short presentations, class discussion & debrief).",
+      "notes": ""
+    },
+    "B3": {
+      "band": 2,
+      "evidence": "The lesson plan includes some whole-class participation and interactivity (quick poll, group activity, short presentations), but with weak interdependence.",
+      "notes": ""
+    },
+    "C1": {
+      "band": 2,
+      "evidence": "The lesson plan includes one substantial retrieval or mix with low effort (exit ticket + micro-quiz).",
+      "notes": ""
+    },
+    "C2": {
+      "band": 3,
+      "evidence": "The lesson plan includes aligned exit tickets/mini-quizzes/oral checks with immediate use and task-focused feedback time.",
+      "notes": ""
+    },
+    "C3": {
+      "band": 1,
+      "evidence": "The lesson plan does not include in-lesson spacing between retrievals or planned delayed cumulative checks (≈2 days & 1 week).",
+      "notes": ""
+    },
+    "D1": {
+      "band": 2,
+      "evidence": "The lesson plan includes clear worked examples and specific guided tasks with timing, but no contrasting/common-error example.",
+      "notes": ""
+    },
+    "D2": {
+      "band": 2,
+      "evidence": "The lesson plan includes specific artifacts attached to tasks (AI Use-Case Canvas), but no explicit plan to fade supports and provoke self-explanation.",
+      "notes": ""
+    },
+    "D3": {
+      "band": 1,
+      "evidence": "The lesson plan does not include independent tasks that mirror models or a circulation/monitoring plan with error interception.",
+      "notes": ""
+    },
+    "E1": {
+      "band": 2,
+      "evidence": "The lesson plan includes some segmentation and isolate then integrate, but major topics are still overloaded.",
+      "notes": ""
+    },
+    "E2": {
+      "band": 3,
+      "evidence": "The lesson plan includes integrated materials (no split-attention) with concise on-screen text and narration aligned with visuals.",
+      "notes": ""
+    },
+    "E3": {
+      "band": 1,
+      "evidence": "The lesson plan does not include early probe, novices get more guidance, supports fade, or quick effort/load checks (e.g., 1–9) trigger specific adjustments.",
+      "notes": ""
+    },
+    "F1": {
+      "band": 3,
+      "evidence": "The lesson plan includes multiple means of representation/action/engagement with clear instructions and proactive accommodations (captions/alt text/contrast).",
+      "notes": ""
+    },
+    "F2": {
+      "band": 2,
+      "evidence": "The lesson plan includes some tracking or brief reflection, but limited link to ILOs.",
+      "notes": ""
+    }
+  },
+  "global_notes": ""
+}

@@ -1,0 +1,297 @@
+#!/usr/bin/env python3
+"""
+compare_reports_top10_pdf.py
+
+What it does
+------------
+- Loads one or more JSON report files.
+- Flattens nested JSON to dot-notation numeric features.
+- Computes the top-K (default 10) most variable features across tools.
+- Saves a CSV (features × tools), per-feature PNG bar charts, and a single
+  multi-page PDF report (title page, table page, and one page per feature).
+
+Requirements
+------------
+- Python 3.8+
+- numpy, pandas, matplotlib
+
+Usage
+-----
+python compare_reports_top10_pdf.py \
+    /path/to/report(autoclassmate).json \
+    /path/to/report(edcafe).json \
+    /path/to/report(eduaide).json \
+    /path/to/report(GPT-5).json \
+    /path/to/report(khamingo).json \
+    /path/to/report(radius).json \
+    -o ./out -k 10 -p report_comparison.pdf
+
+Notes
+-----
+- Charts are pure matplotlib (no seaborn, no custom colors).
+- Missing or non-numeric values are ignored when computing variance.
+"""
+
+import os
+import json
+import math
+import argparse
+from typing import Any, Dict, List, Tuple
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_pdf import PdfPages
+
+
+# ----------------------------- JSON flattening ------------------------------ #
+
+def is_number(x: Any) -> bool:
+    if isinstance(x, bool):
+        return True
+    if isinstance(x, (int, float)) and not isinstance(x, bool):
+        return True
+    if isinstance(x, str):
+        try:
+            float(x)
+            return True
+        except Exception:
+            return False
+    return False
+
+
+def to_number(x: Any) -> float:
+    if isinstance(x, bool):
+        return float(int(x))
+    if isinstance(x, (int, float)) and not isinstance(x, bool):
+        return float(x)
+    if isinstance(x, str):
+        try:
+            return float(x)
+        except Exception:
+            pass
+    return float("nan")
+
+
+def flatten_json(obj: Any, parent_key: str = "") -> Dict[str, float]:
+    """
+    Recursively flattens a JSON-like object (dict/list/scalar) into a mapping from
+    dotted-path keys to numeric values. Non-numeric leaves are ignored.
+    """
+    flat: Dict[str, float] = {}
+
+    def _flatten(x: Any, prefix: str):
+        if isinstance(x, dict):
+            for k, v in x.items():
+                new_key = f"{prefix}.{k}" if prefix else str(k)
+                _flatten(v, new_key)
+        elif isinstance(x, list):
+            for i, v in enumerate(x):
+                new_key = f"{prefix}[{i}]"
+                _flatten(v, new_key)
+        else:
+            if is_number(x):
+                flat[prefix] = to_number(x)
+
+    _flatten(obj, parent_key)
+    return flat
+
+
+# --------------------------- Loading & alignment ---------------------------- #
+
+def load_reports(paths: List[str]) -> Tuple[pd.DataFrame, List[str], List[str]]:
+    """
+    Returns:
+        df: rows = tools, cols = numeric features (aligned across tools)
+        labels: list of tool labels in df.index
+        missing: paths that were missing or failed to parse
+    """
+    labels, flat_rows, missing = [], [], []
+    for p in paths:
+        label = os.path.basename(p).replace("report(", "").replace(").json", "")
+        if not os.path.exists(p):
+            missing.append(p)
+            continue
+        try:
+            with open(p, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            flat = flatten_json(data)
+            labels.append(label)
+            flat_rows.append(flat)
+        except Exception as e:
+            print(f"Failed to load {p}: {e}")
+            missing.append(p)
+
+    df = pd.DataFrame(flat_rows, index=labels).sort_index(axis=1)
+    df = df.apply(pd.to_numeric, errors="coerce")
+    df = df.dropna(axis=1, how="all")
+    return df, labels, missing
+
+
+# ------------------------------- Utilities ---------------------------------- #
+
+def sanitize_filename(s: str) -> str:
+    return "".join(c if c.isalnum() or c in ("-", "_", ".") else "_" for c in s)
+
+
+def ensure_dir(path: str):
+    os.makedirs(path, exist_ok=True)
+
+
+# ------------------------------- Visuals ------------------------------------ #
+
+def plot_feature_bar(df: pd.DataFrame, feature: str, title: str = None, dpi: int = 150):
+    """
+    Create and return a matplotlib Figure for a single feature bar chart.
+    """
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    series = df[feature]
+    # no explicit color/style
+    series.plot(kind="bar", ax=ax)
+    ax.set_title(title or feature)
+    ax.set_xlabel("AI tool")
+    ax.set_ylabel("Value")
+    fig.tight_layout()
+    return fig
+
+
+def figure_title_page(title: str, subtitle: str = "", dpi: int = 150):
+    fig = plt.figure()
+    # simple centered text layout
+    fig.text(0.5, 0.65, title, ha="center", va="center", fontsize=22, weight="bold")
+    if subtitle:
+        fig.text(0.5, 0.55, subtitle, ha="center", va="center", fontsize=12)
+    fig.text(0.5, 0.1, "Generated by compare_reports_top10_pdf.py", ha="center", va="center", fontsize=8)
+    fig.tight_layout()
+    return fig
+
+
+def figure_table(df: pd.DataFrame, title: str = "", fontsize: int = 8, dpi: int = 150):
+    """
+    Render a DataFrame as a table on a figure.
+    """
+    fig = plt.figure(figsize=(10, 6))
+    ax = fig.add_subplot(111)
+    ax.axis("off")
+    if title:
+        ax.set_title(title, pad=10)
+    table = ax.table(
+        cellText=np.round(df.values, 4).tolist(),
+        rowLabels=df.index.tolist(),
+        colLabels=df.columns.tolist(),
+        loc="center"
+    )
+    table.auto_set_font_size(False)
+    table.set_fontsize(fontsize)
+    table.scale(1, 1.2)
+    fig.tight_layout()
+    return fig
+
+
+# ------------------------------- Pipeline ----------------------------------- #
+
+def compute_top_k_variance(df: pd.DataFrame, k: int) -> List[str]:
+    """
+    Returns the top-k feature names by variance (descending).
+    """
+    if df.shape[1] == 0:
+        return []
+    variances = df.var(axis=0).sort_values(ascending=False)
+    return list(variances.head(k).index)
+
+
+def build_pdf_report(output_pdf: str,
+                     top_table: pd.DataFrame,
+                     per_feature_figs: List[Tuple[str, plt.Figure]]):
+    """
+    Writes a multi-page PDF with:
+    - Title page
+    - Table page
+    - One page per feature (bar chart)
+    """
+    with PdfPages(output_pdf) as pdf:
+        # Title
+        title_fig = figure_title_page(
+            "Top Variable Features — Report Comparison",
+            "Includes table and per-feature charts"
+        )
+        pdf.savefig(title_fig)
+        plt.close(title_fig)
+
+        # Table page
+        table_fig = figure_table(
+            top_table,
+            title="Top Features (rows) × AI Tools (columns)"
+        )
+        pdf.savefig(table_fig)
+        plt.close(table_fig)
+
+        # Feature pages
+        for feat, fig in per_feature_figs:
+            pdf.savefig(fig)
+            plt.close(fig)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Compare JSON reports and produce top-K feature PDF.")
+    parser.add_argument("files", nargs="+", help="Paths to JSON report files")
+    parser.add_argument("-o", "--output_dir", default="./out", help="Directory for outputs")
+    parser.add_argument("-k", "--topk", type=int, default=10, help="Number of most variable features")
+    parser.add_argument("-p", "--pdf_name", default="report_comparison.pdf", help="Output PDF filename")
+    args = parser.parse_args()
+
+    ensure_dir(args.output_dir)
+
+    # Load reports
+    df, labels, missing = load_reports(args.files)
+    if missing:
+        print("Missing / failed files:")
+        for m in missing:
+            print(" -", m)
+
+    if len(df.index) == 0:
+        print("No valid reports loaded. Exiting.")
+        return
+
+    if df.shape[1] == 0:
+        print("No numeric features found across reports. Exiting.")
+        return
+
+    # Top-K features by variance
+    top_features = compute_top_k_variance(df, args.topk)
+    if not top_features:
+        print("Could not determine top features. Exiting.")
+        return
+
+    # Make table: features × tools
+    top_table = df.loc[:, top_features].T  # rows: features, columns: tools
+    top_table.index.name = "feature"
+    top_table.columns.name = "tool"
+
+    # Save CSV
+    csv_path = os.path.join(args.output_dir, "top_variable_features.csv")
+    top_table.to_csv(csv_path)
+    print(f"Saved table CSV: {csv_path}")
+
+    # Per-feature charts (PNG) and also collect figures for PDF
+    charts_dir = os.path.join(args.output_dir, "top_feature_charts")
+    ensure_dir(charts_dir)
+
+    feature_figs: List[Tuple[str, plt.Figure]] = []
+    for feat in top_features:
+        fig = plot_feature_bar(df, feat, title=feat)
+        png_path = os.path.join(charts_dir, f"{sanitize_filename(feat)}.png")
+        fig.savefig(png_path, dpi=150)
+        print(f"Saved chart: {png_path}")
+        # keep fig open for PDF; we'll close when writing the PDF
+        feature_figs.append((feat, fig))
+
+    # Build PDF
+    pdf_path = os.path.join(args.output_dir, args.pdf_name)
+    build_pdf_report(pdf_path, top_table, feature_figs)
+    print(f"Wrote PDF: {pdf_path}")
+
+
+if __name__ == "__main__":
+    main()

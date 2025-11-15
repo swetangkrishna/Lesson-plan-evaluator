@@ -1,0 +1,40 @@
+Lesson Seed: AI Literacy
+1. Learning Objectives
+By the end of this lesson, students will be able to:
+
+Recall key concepts and terminology related to artificial intelligence (AI).
+Apply AI tools to solve a simple problem or case study scenario.
+Analyze the ethical implications of AI technologies and their impact on society.
+2. Prior Knowledge & Cue Sets
+To engage with the topic of AI literacy, students should have a foundational understanding of:
+
+Basic computer science principles.
+The concept of algorithms and data.
+Cueing Strategies:
+Discussion Prompt: Ask students to share their prior experiences with AI (e.g., virtual assistants, recommendation systems).
+Visual Aid: Show a graphic representation of AI applications in everyday life (e.g., healthcare, finance, entertainment).
+Real-World Connection: Present a current news article highlighting a recent development in AI technology.
+3. Direct Instruction Strategies
+Explicit Instruction: Conduct a mini-lecture introducing key terms (e.g., machine learning, neural networks) with guided notes for students.
+Demonstration: Showcase a popular AI tool (e.g., a chatbot) and explain its functionalities in real-time.
+Inquiry-Based Exploration: Pose an open-ended question about the future of AI and have students brainstorm possible answers in small groups.
+4. Student Practice & Application
+Independent Activities:
+Guided Practice Worksheet: Have students complete a worksheet identifying AI applications in various industries.
+Concept Mapping: Students create a concept map linking AI terms and their definitions.
+Hands-on Experiment: Use a simple AI tool (e.g., Google AutoML) to create a basic predictive model.
+Collaborative Activities:
+Think-Pair-Share: Students discuss their views on AI's role in society with a partner, then share insights with the class.
+Case Study Analysis: In small groups, analyze a case study on AI ethics and present findings to the class.
+Role-Playing: Simulate a debate on the pros and cons of AI in daily life, assigning roles to each group member.
+5. Formative Assessments
+Exit Tickets: Students write one key takeaway from the lesson related to AI literacy.
+Quick Concept Quiz: Administer a short quiz covering key terms and concepts discussed in class.
+Interactive Class Poll: Use an online tool (e.g., Kahoot) to assess understanding of AI applications and ethics.
+6. Deep Thinking & Reflection
+How do current AI technologies reflect or challenge our ethical standards?
+In what ways can AI enhance human capabilities, and where might it limit them?
+What are the potential long-term societal impacts of widespread AI adoption?
+Discuss the balance between innovation and ethical responsibility in the development of AI technologies.
+How would you approach a situation where an AI tool produces biased or unfair outcomes?
+This lesson seed is structured to engage post-secondary students actively in understanding AI literacy within a 52-minute class period, promoting higher-order thinking and collaborative learning

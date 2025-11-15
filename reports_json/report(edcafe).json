@@ -1,0 +1,90 @@
+{
+  "criteria": {
+    "A1": {
+      "band": 3,
+      "evidence": "The lesson plan includes SMARTIE outcomes (e.g., 'Define AI literacy and explain its importance in modern contexts') and success criteria, with clear aims and inclusivity/equity within outcomes.",
+      "notes": ""
+    },
+    "A2": {
+      "band": 3,
+      "evidence": "The lesson plan aligns the NY College and Career Readiness Standards (CCRS) with specific learning objectives, indicating a strong match on both content and level across the plan.",
+      "notes": ""
+    },
+    "A3": {
+      "band": 2,
+      "evidence": "The lesson plan has some coherent sequencing but minor issues; steps are present but uneven. The 'Opening Hook' and 'Direct Instruction' segments seem well-structured, but the 'Guided Practice' and 'Independent Practice' segments could benefit from clearer time allocations.",
+      "notes": ""
+    },
+    "B1": {
+      "band": 2,
+      "evidence": "The lesson plan includes a mix of Constructive/Interactive modes (e.g., think-pair-share, group presentations) but lacks explicit details on the proportion of time allocated to these activities.",
+      "notes": ""
+    },
+    "B2": {
+      "band": 3,
+      "evidence": "The lesson plan includes generative prompts and tasks that require explain/justify/compare/predict, with rubrics expecting new ideas/links rather than copies. However, the 'Independent Practice' segment could benefit from more explicit guidance on how students will engage with these prompts.",
+      "notes": ""
+    },
+    "B3": {
+      "band": 2,
+      "evidence": "The lesson plan includes some all-student response routines (e.g., think-pair-share) but lacks clear roles and joint products in group work. The 'Guided Practice' segment could benefit from more explicit structure.",
+      "notes": ""
+    },
+    "C1": {
+      "band": 2,
+      "evidence": "The lesson plan includes some retrieval episodes (e.g., the opening hook) but lacks distinct high-effort formats and clear timing for these activities. The 'Independent Practice' segment could benefit from more explicit guidance on how students will engage with these tasks.",
+      "notes": ""
+    },
+    "C2": {
+      "band": 3,
+      "evidence": "The lesson plan includes aligned exit tickets/mini-quizzes/oral checks, but the follow-up actions and feedback plans are not explicitly stated. The 'Closing' segment could benefit from more explicit guidance on how students will reflect on their learning.",
+      "notes": ""
+    },
+    "C3": {
+      "band": 2,
+      "evidence": "The lesson plan includes some spacing between retrievals but lacks clear delayed cumulative checks and prior content revisit. The 'Independent Practice' segment could benefit from more explicit guidance on how students will engage with these tasks.",
+      "notes": ""
+    },
+    "D1": {
+      "band": 3,
+      "evidence": "The lesson plan includes full worked examples or think-alouds in the 'Direct Instruction' segment, but the 'Guided Practice' and 'Independent Practice' segments could benefit from more explicit guidance on how students will engage with these tasks.",
+      "notes": ""
+    },
+    "D2": {
+      "band": 2,
+      "evidence": "The lesson plan includes some scaffolds (e.g., sentence stems, checklists) but lacks clear plans to fade supports and provoke self-explanation. The 'Guided Practice' segment could benefit from more explicit guidance on how students will engage with these tasks.",
+      "notes": ""
+    },
+    "D3": {
+      "band": 2,
+      "evidence": "The lesson plan includes some independent tasks that mirror models, but the circulation/monitoring plan and error-interception plan are not explicitly stated. The 'Independent Practice' segment could benefit from more explicit guidance on how students will engage with these tasks.",
+      "notes": ""
+    },
+    "E1": {
+      "band": 3,
+      "evidence": "The lesson plan includes a clear simple→complex progression in the 'Direct Instruction' segment, but the 'Guided Practice' and 'Independent Practice' segments could benefit from more explicit guidance on how students will engage with these tasks.",
+      "notes": ""
+    },
+    "E2": {
+      "band": 3,
+      "evidence": "The lesson plan includes some integrated materials (e.g., visuals, narration) but lacks clear plans for learner pace control and captions. The 'Direct Instruction' segment could benefit from more explicit guidance on how students will engage with these materials.",
+      "notes": ""
+    },
+    "E3": {
+      "band": 2,
+      "evidence": "The lesson plan includes some early probe and differentiated tasks, but the supports fade and quick effort/load checks are not explicitly stated. The 'Guided Practice' segment could benefit from more explicit guidance on how students will engage with these tasks.",
+      "notes": ""
+    },
+    "F1": {
+      "band": 3,
+      "evidence": "The lesson plan includes some multiple means of representation/action/engagement, but the clear instructions and proactive accommodations are not explicitly stated. The 'Direct Instruction' segment could benefit from more explicit guidance on how students will engage with these materials.",
+      "notes": ""
+    },
+    "F2": {
+      "band": 2,
+      "evidence": "The lesson plan includes some error-friendly norms, but the progress tracking and structured reflection linked to ILOs are not explicitly stated. The 'Closing' segment could benefit from more explicit guidance on how students will reflect on their learning.",
+      "notes": ""
+    }
+  },
+  "global_notes": ""
+}

@@ -1,0 +1,75 @@
+Lesson Plan: Introduction to AI Literacy and Its Use Cases
+
+Grade Level: Graduate Students
+Duration: 90 minutes
+Subject: Artificial Intelligence Literacy
+Learning Objective: By the end of this lesson, students will be able to define AI literacy, identify various use cases of AI across different industries, and critically analyze the implications of these use cases in real-world contexts.
+
+Location: New York
+Standards: Aligned with the NY College and Career Readiness Standards (CCRS)
+
+Materials Needed:
+	•	Slides with key definitions, examples, and prompts
+	•	Case study handouts (healthcare, finance, education, public sector in NYC context)
+	•	Internet-enabled devices (1 per student or pair)
+	•	Whiteboard/markers or digital board
+	•	Sticky notes or shared doc for brainstorming
+	•	Timer
+	•	Quick poll tool (e.g., Google Forms or in-class platform)
+
+Lesson Flow:
+	1.	Hook (5 min): Quick poll—“Where do you already encounter AI?” Show live word cloud.
+	2.	Definitions & Scope (Lecture) (see below): AI vs. automation; AI literacy components; opportunities/risks.
+	3.	Group Activity: Use-case canvas + ELSI analysis.
+	4.	Short Presentations: Groups share findings.
+	5.	Class Discussion & Debrief: Cross-industry themes.
+	6.	Wrap-Up & Assessment: Exit ticket + micro-quiz.
+
+Lecture: (20 minutes)
+	•	What is AI? Narrow vs. general; data, models, inference.
+	•	AI literacy: finding, evaluating, applying, and communicating about AI; limits and biases; responsible use.
+	•	Use cases overview (NY-relevant): healthcare triage support, finance fraud detection, transit scheduling/maintenance, education support tools, public services/311 analytics, creative tools.
+	•	Risks/considerations: bias, privacy, security, explainability, accessibility, environmental cost, regulation/standards.
+	•	Simple evaluation checklist: goal, data, model, stakeholders, metrics, risks, mitigation, governance.
+
+Group Activity: (25 minutes)
+
+Instructions for Group Activity:
+	•	Form groups of 3–4. Each group receives a distinct use-case card (e.g., “Hospital readmission prediction,” “Subway delay prediction,” “Small-bank loan underwriting,” “Adaptive learning platform,” “City service request routing,” “Media content recommendation”).
+	•	Step 1 (5 min): Define the problem and success metrics (technical + human outcomes).
+	•	Step 2 (8 min): Fill a one-page “AI Use-Case Canvas”:
+• Data: sources, quality, potential bias
+• Model/approach: input–output sketch
+• Stakeholders: users, impacted groups, governance
+• Risks: fairness, privacy, security, misuse, environmental impact
+• Mitigations: data audits, human-in-the-loop, differential privacy, monitoring, red-team tests
+• Compliance/standards: policies, documentation, accessibility
+	•	Step 3 (7 min): Plan a 2–3 minute share-out with one visual (slide or whiteboard sketch).
+	•	Step 4 (5 min): Prepare one discussion question to pose to the class.
+
+Presentations (20 minutes)
+	•	Each group presents for ~2–3 minutes with one visual.
+	•	Audience uses “two stars and a wish” feedback (2 strengths, 1 improvement).
+	•	Instructor records recurring themes on board.
+
+Class Discussion and Debrief (15 minutes)
+	•	Synthesize themes across sectors: data dependencies, human oversight, measurable impact, and equity.
+	•	Contrast high-risk vs. low-risk deployments and appropriate safeguards.
+	•	Connect to NY CCRS: critical reading of claims, evidence-based argument, collaboration, and clear communication.
+
+Wrap-Up and Assessment (10 minutes)
+	•	Exit ticket (2 prompts):
+	1.	In one sentence, define AI literacy in your own words.
+	2.	Name one benefit and one risk of an AI use case discussed today, plus one mitigation.
+	•	3-question micro-quiz (poll): terminology, risk recognition, stakeholder identification.
+
+Homework Assignment:
+	•	Write a 600–800 word brief analyzing one AI use case of your choice (preferably NY-relevant). Include: problem definition, data sources and issues, stakeholders, benefits/risks, evaluation metrics, and at least two concrete mitigations. Cite at least two reputable sources. Bring one discussion question to next class.
+	•	Optional: Create a one-slide “AI Use-Case Canvas” to accompany your brief.
+
+Assessment Indicators:
+	•	Can accurately define AI literacy and distinguish AI from simple automation.
+	•	Identifies stakeholders, benefits, risks, and plausible mitigations for a given use case.
+	•	Applies evidence and clear reasoning aligned with CCRS communication and critical-thinking expectations.
+	•	Produces a structured brief with appropriate citations and actionable recommendations.
+	•	Demonstrates collaborative skills during group work and provides constructive peer feedback.

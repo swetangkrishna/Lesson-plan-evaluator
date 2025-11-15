@@ -1,0 +1,90 @@
+{
+  "criteria": {
+    "A1": {
+      "band": 3,
+      "evidence": "The objectives are clear and specific, using measurable verbs (e.g., 'Define AI literacy', 'Identify various use cases of AI'). The outcomes align with the standards.",
+      "notes": ""
+    },
+    "A2": {
+      "band": 2,
+      "evidence": "Some alignment is visible between activities and assessment tasks. However, not all key ILOs have at least one learning activity and one assessment task at the same cognitive level.",
+      "notes": ""
+    },
+    "A3": {
+      "band": 2,
+      "evidence": "The lesson plan has a coherent sequence (activate prior knowledge → model → guided → independent), but some minor issues with timing and step design are present.",
+      "notes": ""
+    },
+    "B1": {
+      "band": 4,
+      "evidence": "The lesson plan aims for ≥70% C+I with ≥30% Interactive, which is a good balance of engagement modes. The activities promote active learning and interaction.",
+      "notes": ""
+    },
+    "B2": {
+      "band": 3,
+      "evidence": "Some targeted generative prompts are present in key episodes (e.g., task cards for analyzing AI use cases). However, not all tasks require explain/justify/compare/predict.",
+      "notes": ""
+    },
+    "B3": {
+      "band": 2,
+      "evidence": "Multiple all-student response moments are present, but groups have prompts with weak interdependence. Some structured group work is visible, but it could be more explicit and consistent.",
+      "notes": ""
+    },
+    "C1": {
+      "band": 3,
+      "evidence": "Two retrievals with ≥50% high-effort formats are present (e.g., task cards for analyzing AI use cases). However, not all retrieval opportunities have high-effort formats.",
+      "notes": ""
+    },
+    "C2": {
+      "band": 2,
+      "evidence": "Some aligned exit tickets/mini-quizzes/oral checks are present. However, the follow-up and feedback plan is unclear or missing in some cases.",
+      "notes": ""
+    },
+    "C3": {
+      "band": 1,
+      "evidence": "No clear spacing between retrievals; no planned delayed cumulative checks (≈2 days & 1 week).",
+      "notes": ""
+    },
+    "D1": {
+      "band": 2,
+      "evidence": "Some worked examples or think-alouds are present, but they are not consistently used throughout the lesson. A timed, scaffolded 'we do' phase is partially visible.",
+      "notes": ""
+    },
+    "D2": {
+      "band": 1,
+      "evidence": "Scaffolds like task cards and worksheets are mentioned, but their explicit plan to fade supports and provoke self-explanation is unclear or missing.",
+      "notes": ""
+    },
+    "D3": {
+      "band": 2,
+      "evidence": "Some independent tasks mirror models, but the circulation/monitoring plan with error interception is not consistently present throughout the lesson.",
+      "notes": ""
+    },
+    "E1": {
+      "band": 3,
+      "evidence": "A clear simple→complex progression is visible, and some segmentation of hard elements before integration is present. However, goal-free early tasks are not explicitly mentioned.",
+      "notes": ""
+    },
+    "E2": {
+      "band": 1,
+      "evidence": "Some integrated materials (e.g., task cards) are present, but split-attention and redundant text are still visible in some cases.",
+      "notes": ""
+    },
+    "E3": {
+      "band": 1,
+      "evidence": "No clear early probe or differentiation plan is present. Supports fade, but the quick effort/load checks (e.g., 1–9) trigger specific adjustments are not explicitly mentioned.",
+      "notes": ""
+    },
+    "F1": {
+      "band": 3,
+      "evidence": "Some multiple means of representation/action/engagement are visible (e.g., task cards, videos). However, clear instructions and proactive accommodations are not consistently present throughout the lesson.",
+      "notes": ""
+    },
+    "F2": {
+      "band": 1,
+      "evidence": "No clear error-friendly norms or progress tracking is present. Reflection linked to ILOs informs next steps is partially visible but unclear in some cases.",
+      "notes": ""
+    }
+  },
+  "global_notes": ""
+}

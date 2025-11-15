@@ -1,0 +1,90 @@
+{
+  "criteria": {
+    "A1": {
+      "band": 3,
+      "evidence": "The lesson plan includes specific outcomes such as 'define AI literacy' and 'critically analyze the implications of AI technologies'. The objectives are also clearly stated, but there is no explicit mention of inclusivity or equity within the outcomes.",
+      "notes": ""
+    },
+    "A2": {
+      "band": 3,
+      "evidence": "The learning objectives align with the lesson structure and activities. For example, the 'AI Use Cases Exploration' section matches the second objective to identify and explain AI use cases across different industries. However, there is no explicit mention of how these activities will be assessed.",
+      "notes": ""
+    },
+    "A3": {
+      "band": 2,
+      "evidence": "The lesson structure appears to follow a coherent sequence (activate prior knowledge → model → guided → independent), but the timings are not explicitly stated. The plan mentions '15 minutes' for the introduction, but there is no clear indication of how much time will be spent on each activity.",
+      "notes": ""
+    },
+    "B1": {
+      "band": 2,
+      "evidence": "The lesson plan includes a mix of interactive and passive activities. The group discussion and presentation evaluation are examples of constructive/interactive modes, but the majority of the time is spent in passive/active mode.",
+      "notes": ""
+    },
+    "B2": {
+      "band": 3,
+      "evidence": "The lesson plan includes some generative prompts such as 'analyze AI applications, benefits, and potential challenges' and 'prepare a 5-minute presentation on their findings'. However, the rubrics for these activities are not explicitly stated.",
+      "notes": ""
+    },
+    "B3": {
+      "band": 2,
+      "evidence": "The lesson plan includes some whole-class participation such as group discussions and presentations. However, there is no explicit mention of how students will be encouraged to participate or how the teacher will monitor their engagement.",
+      "notes": ""
+    },
+    "C1": {
+      "band": 2,
+      "evidence": "The lesson plan includes some retrieval opportunities such as the group presentation evaluation and individual reflection assignment. However, there is no explicit mention of high-effort formats or distinct retrieval episodes.",
+      "notes": ""
+    },
+    "C2": {
+      "band": 3,
+      "evidence": "The lesson plan includes some formative checks such as the group presentation evaluation and individual reflection assignment. However, there is no explicit mention of how these results will be used to inform future instruction.",
+      "notes": ""
+    },
+    "C3": {
+      "band": 1,
+      "evidence": "There is no explicit mention of in-lesson spacing between retrievals or planned delayed cumulative checks.",
+      "notes": ""
+    },
+    "D1": {
+      "band": 2,
+      "evidence": "The lesson plan mentions 'worked examples' and 'guided practice', but there is no clear indication of how these will be implemented or timed.",
+      "notes": ""
+    },
+    "D2": {
+      "band": 2,
+      "evidence": "The lesson plan includes some scaffolds such as group discussion worksheets, but there is no explicit mention of an explicit plan to fade supports and provoke self-explanation.",
+      "notes": ""
+    },
+    "D3": {
+      "band": 1,
+      "evidence": "There is no explicit mention of independent tasks that mirror models or a circulation/monitoring plan with error interception.",
+      "notes": ""
+    },
+    "E1": {
+      "band": 2,
+      "evidence": "The lesson plan mentions 'simple→complex progression', but there is no clear indication of how this will be implemented or if optional goal-free early tasks will be included.",
+      "notes": ""
+    },
+    "E2": {
+      "band": 1,
+      "evidence": "There is no explicit mention of integrated materials, signaling, concise on-screen text, narration aligned with visuals, or brief processing pauses.",
+      "notes": ""
+    },
+    "E3": {
+      "band": 1,
+      "evidence": "There is no explicit mention of early probes, novices getting more guidance, supports fading, or quick effort/load checks.",
+      "notes": ""
+    },
+    "F1": {
+      "band": 2,
+      "evidence": "The lesson plan includes some multiple means of representation/action/engagement such as group discussions and presentations. However, there is no explicit mention of proactive accommodations for students with disabilities.",
+      "notes": ""
+    },
+    "F2": {
+      "band": 1,
+      "evidence": "There is no explicit mention of error-friendly norms, progress tracking, or structured reflection linked to ILOs.",
+      "notes": ""
+    }
+  },
+  "global_notes": ""
+}

@@ -1,0 +1,75 @@
+Lesson Plan: Introduction to AI Literacy and Its Use Cases
+
+Grade Level: Graduate Students
+Duration: 2 hours
+Subject: Artificial Intelligence Literacy
+Learning Objective: By the end of this lesson, students will be able to define AI literacy, identify various use cases of AI across different industries, and critically analyze the implications of these use cases in real-world contexts.
+
+Location: New York
+Standards: Aligned with the NY College and Career Readiness Standards (CCRS)
+
+Materials Needed:
+
+Whiteboard and markers
+Projector and screen
+Laptops/tablets with internet access
+Video clips showcasing AI use cases (pre-selected)
+Handouts summarizing key concepts and use cases
+Group discussion guidelines
+Post-it notes and chart paper for brainstorming sessions
+Lesson Flow:
+
+Introduction (15 minutes)
+
+Begin with a brief overview of artificial intelligence. Ask students to share their preliminary thoughts on what AI is and how they perceive its impact on society.
+Include a short, engaging video (3-5 minutes) that showcases various innovative AI applications, such as in healthcare, finance, transportation, and education.
+After the video, initiate a class discussion. Prompt students with questions like:
+What surprised you most about the use of AI?
+What are some areas where you envision AI impacting your field of study?
+Lecture: Defining AI Literacy (20 minutes)
+
+Present a concise definition of AI literacy: the ability to understand what AI is, how it works, and its implications in various domains.
+Use a slide deck to introduce key concepts:
+The components of AI (machine learning, natural language processing, etc.)
+The importance of data in AI systems
+Ethical considerations surrounding AI
+After the lecture, encourage students to take notes and raise questions regarding the content presented. Clarify complex topics to ensure understanding.
+Group Activity: AI Use Cases Exploration (40 minutes)
+
+Instructions for Group Activity:
+Divide students into small groups of 4-5.
+Assign each group a specific industry to research AI use cases (e.g., healthcare, finance, manufacturing, education, or retail).
+Each group will have 20 minutes to explore their assigned industry using laptops/tablets, focusing on three key areas:
+Current AI applications.
+Benefits and challenges associated with these applications.
+Future trends and developments in AI relevant to their industry.
+Provide each group with handouts that include a recommended list of resources (articles, reports, videos) to aid their research.
+After the research phase, groups will create a brief (5-7 minutes) presentation that outlines their findings. They will use chart paper to summarize their research points visually.
+Presentations (25 minutes)
+
+Each group will present their findings to the class. Encourage them to facilitate a Q&A session after their presentation to deepen engagement and understanding.
+As they present, the instructor will take notes on common themes and insights across industries to highlight during the debrief.
+Class Discussion and Debrief (15 minutes)
+
+After all presentations, bring the class back together for an open discussion.
+Focus on synthesizing the information shared in presentations:
+What commonalities did you notice in AI use cases across different industries?
+In what ways can understanding AI literacy influence your own professional practices?
+Discuss ethical implications and potential biases inherent in AI technologies.
+Encourage students to share personal reflections about how AI literacy can enhance their professional readiness.
+Wrap-Up and Assessment (5 minutes)
+
+Conclude the lesson by revisiting the learning objective and summarizing key points discussed during the class.
+For assessment, assign students to submit a reflective journal entry. They should address the following prompt:
+“In what ways has today’s lesson expanded your understanding of AI literacy and its use cases? How do you foresee this knowledge impacting your future career?”
+Inform students that these reflections will be assessed on clarity, depth of insight, and personal connection to the material.
+Homework Assignment:
+
+Read a scholarly article on the ethical implications of AI in one of the industries discussed in class.
+Prepare a 1-2 page response that synthesizes the article's main points and relate them back to the concepts of AI literacy learned in class.
+Assessment Indicators:
+
+Monitoring participation during discussions and group activities.
+Evaluating the quality and depth of group presentations.
+Reviewing the reflective journal entries for comprehension of AI literacy concepts and personal insights.
+By the end of this lesson, students will have developed a foundational understanding of AI literacy and will be well-equipped to engage with AI technologies in their respective fields, understanding both the possibilities they present and the responsibilities they entail.

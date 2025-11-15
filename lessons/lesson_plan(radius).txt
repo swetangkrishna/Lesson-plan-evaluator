@@ -1,0 +1,98 @@
+AI Unveiled: Navigating the Future with Intelligence
+Subject other			
+Lesson Type	5E		
+Duration 90
+Grade Level higher education
+
+
+Overview
+1. Introduction to AI Literacy 10 Min
+2. Lecture on AI Use Cases 20 Min
+3. Group Activity: Analyzing AI Use Cases 25 Min
+4. Presentations 15 Min
+5. Class Discussion and Debrief 10 Min
+6. Wrap-Up and Assessment 10 Min	
+
+Standards
+NY-ETS1-1: Define a problem and identify criteria and constraints
+NY-ETS1-2: Develop possible solutions
+NY-ETS1-3: Analyze data from tests to determine similarities and differences among several design solutions
+
+Background Knowledge
+Artificial Intelligence (AI) is a rapidly evolving field that is transforming industries and societies. This lesson introduces students to the concept of AI literacy, exploring its definition and significance. Students will examine various AI applications across industries such as healthcare, finance, and transportation, and will engage in critical discussions about the ethical and societal implications of these technologies.	Skills
+
+Objectives
+1. Define AI literacy
+2. Identify various use cases of AI across different industries
+3. Critically analyze the implications of AI use cases in real-world contexts
+
+Lesson Plan
+Introduction to AI Literacy 10 Min
+Begin with a brief introduction to AI literacy to capture students' interest. Use an engaging story or anecdote about AI's impact on a specific industry, such as healthcare or finance. Pose open-ended questions like 'What comes to mind when you think of AI?' and 'How do you think AI affects your daily life?' to activate prior knowledge and encourage students to share their thoughts. Use a summary excerpt to provide a concise definition of AI literacy and its importance.
+
+Note:
+Use diverse examples to connect with students' personal experiences and encourage participation.
+
+Section resources: 
+youtube video - the rise of ai in factories 
+summary reference sheet - unlocking ai literacy
+
+Lecture on AI Use Cases 20 Min
+Deliver a lecture focusing on various AI use cases across different industries. Use a context excerpt to illustrate AI applications in healthcare, finance, and transportation. Incorporate a video that showcases AI in action, highlighting its benefits and challenges. Distribute a worksheet with key terms and concepts for students to fill in during the lecture. Encourage students to jot down questions or insights they may have for later discussion.
+
+Note:
+Focus on clear explanations and real-world examples to make the content relatable.
+
+Section resources: 
+vocabulary worksheet - ai use cases across industries 
+youtube video - the rise of ai in factories 
+context reference sheet - ai- shaping the future across industries
+
+Group Activity: Analyzing AI Use Cases 25 Min
+Organize students into small groups for a collaborative activity. Assign each group a different AI use case to analyze using task cards that outline specific questions and criteria. Encourage groups to consider the ethical and societal implications of their assigned use case. Provide a worksheet for each group to record their analysis and conclusions. Use the Jigsaw Method to ensure each group shares their findings with the class.
+
+Note:
+Facilitate active learning by encouraging critical thinking and peer interaction.
+
+Section resources: 
+sorting worksheet - ai insight shuffle 
+task cards - exploring ai use cases- ethical and societal impacts 
+
+Presentations 15 Min
+Have each group present their analysis to the class. Encourage students to use question cards to prompt discussion and engage their peers. Allocate time for a brief Q&A after each presentation to foster a deeper understanding and allow students to clarify any uncertainties. Use a rule table to guide the presentation format and ensure consistency.
+
+Note:
+Encourage diverse presentation styles to cater to different learning preferences.
+
+Section resources: 
+question cards - exploring ai's societal impact and ethical challenges 
+rule table reference sheet - presentation guidelines for higher education 
+Class Discussion and Debrief 10 Min
+Facilitate a class discussion to synthesize the information presented. Use structured academic controversy to explore differing viewpoints on AI's impact. Prompt students with thought-provoking questions like 'What are the potential risks of AI in society?' and 'How can we ensure AI is used ethically?' Encourage students to reflect on their learning and share any remaining questions or insights.
+
+Note:
+Create an inclusive environment where all students feel comfortable sharing their thoughts.
+Section resources: 
+question cards - exploring ai's societal impact and ethical challenges 
+academic article - global ai ethics- a review of the social impacts and ethical implications of artificial intelligence 
+
+Wrap-Up and Assessment 10 Min
+Conclude the lesson by summarizing the key points discussed. Distribute a worksheet for students to complete as a formative assessment, focusing on defining AI literacy, identifying use cases, and analyzing implications. Assign a quick write as homework, asking students to reflect on how AI might evolve in the future and its potential impact on their chosen field.
+
+Note:
+Use the assessment to gauge student understanding and provide feedback.
+Section resources: 
+assessment worksheet - wrap-up and assessment- ai literacy 
+Additional Resources
+
+presentation - exploring ai- impact and ethical considerations
+jeopardy - ai and technology jeopardy game 
+wheel of fortune - ai literacy and ethical implications game 
+news article - generative ai use cases- 7 ai content repurposing tool use cases for marketers 
+academic article - effective practices in ai literacy education- case studies and reflections 
+youtube video - 10 use cases for ai agents- iot- rag- & disaster response explained 
+word search - ai insights 
+information sheet - ai literacy- navigating the future 
+assessment worksheet - ai literacy and use cases 
+vocabulary worksheet - ai literacy and applications 
+activity bingo - ai adventure bingo 
