@@ -1,6 +1,5 @@
 # Comparing AI-Agents for Lesson-Plan Generation
 
-*# A repo-friendly summary with bullets, commands, and quick links.*
 
 **Quick links**
 - [What this repo does](#what-this-repo-does)
@@ -12,7 +11,6 @@
 - [Guardrails / Dependencies](#guardrails--dependencies)
 - [Indices (short list)](#indices-short-list)
 - [Quick start](#quick-start)
-- [Evidence base (high-level)](#evidence-base-high-level)
 
 ---
 
