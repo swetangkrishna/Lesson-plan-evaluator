@@ -12,13 +12,7 @@
 - [Guardrails / Dependencies](#guardrails--dependencies)
 - [Indices (short list)](#indices-short-list)
 - [Quick start](#quick-start)
-- [Outputs](#outputs)
-- [Repo layout (suggested)](#repo-layout-suggested)
-- [Sample result (diagnostic example)](#sample-result-diagnostic-example)
-- [How to improve](#how-to-improve)
 - [Evidence base (high-level)](#evidence-base-high-level)
-- [Cite this work](#cite-this-work)
-- [License](#license)
 
 ---
 
