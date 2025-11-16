@@ -395,7 +395,7 @@
 </details>
 
 
-### 📊 Visuals (2 PNGs)
+### 📊 Results
 
 | ULPR comparing all lesson planners' total score | ULPR comparing all lesson planners' per criteria score |
 |---|---|
