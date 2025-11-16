@@ -394,6 +394,14 @@
   evidence: There is no explicit mention of error-friendly norms, progress tracking, or structured reflection linked to ILOs.
 </details>
 
+
+### 📊 Visuals (2 PNGs)
+
+| ULPR comparing all lesson planners' total score | ULPR comparing all lesson planners' per criteria score |
+|---|---|
+| ![all lesson planners' total score](total_score.png) | ![all lesson planners' per criteria score](per_criteria_score.png) |
+
+
 ## Quick start
 - Clone this repo.
 - *(Optional)* Create a virtualenv and install deps (e.g., `pip install -r requirements.txt`).
