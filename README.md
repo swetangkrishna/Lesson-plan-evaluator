@@ -30,7 +30,7 @@
 - ✅ **Markdown and JSON** reports  
 - ✅ **Guardrails** (e.g., expertise reversal for CLT) and **dependency caps** (alignment → engagement/formative)
 
-## Acronyms (quick)
+## Acronyms 
 - **AI**: Artificial Intelligence  
 - **LLM**: Large Language Model  
 - **ULPR**: Unified Lesson Plan Rubric  
@@ -71,11 +71,6 @@
 - **E (Cognitive Load):** E1 intrinsic-load sequencing; E2 extraneous load & modality; E3 expertise adaptation & monitoring.  
 - **F (UDL & Accessibility):** F1 multiple means + accessible resources.
 
----
-
-## Results (Text + PNGs for README)
-
-> Drop your two images in `figures/` (or adjust the paths below).
 
 ---
 
@@ -118,6 +113,13 @@
 | **slidesgo**     | 3 | 3 | 2 | 2 | 3 | 2 | 2 | 3 | 1 | 2 | 2 | 1 | 2 | 1 | 1 | 2 | 1 | **33** | **50.8** |
 
 ---
+
+### 📊 Results
+
+| ULPR comparing all lesson planners' total score | ULPR comparing all lesson planners' per criteria score |
+|---|---|
+| ![all lesson planners' total score](total_score.png) | ![all lesson planners' per criteria score](per_criteria_score.png) |
+
 
 ### 📑 Per-report details (Scores & Evidence)
 
@@ -394,12 +396,6 @@
   evidence: There is no explicit mention of error-friendly norms, progress tracking, or structured reflection linked to ILOs.
 </details>
 
-
-### 📊 Results
-
-| ULPR comparing all lesson planners' total score | ULPR comparing all lesson planners' per criteria score |
-|---|---|
-| ![all lesson planners' total score](total_score.png) | ![all lesson planners' per criteria score](per_criteria_score.png) |
 
 
 ## Quick start
