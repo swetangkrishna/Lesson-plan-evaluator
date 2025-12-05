@@ -118,8 +118,7 @@
 
 | ULPR comparing all lesson planners' total score | ULPR comparing all lesson planners' per criteria score |
 |---|---|
-| ![all lesson planners' total score](total_score.png) | ![all lesson planners' per criteria score](per_criteria_score.png) |
-| ![all lesson planners data representation](data_pres.png) |
+| ![all lesson planners' per criteria score](per_criteria_score.png) | ![all lesson planners data representation](data_pres.png) |
 
 ### 📑 Per-report details (Scores & Evidence)
 
