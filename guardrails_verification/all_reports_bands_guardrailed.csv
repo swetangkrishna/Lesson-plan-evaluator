@@ -1,0 +1,9 @@
+model,A1,A2,A3,B1,B2,B3,C1,C2,C3,D1,D2,D3,E1,E2,E3,F1,F2,flag_sequencing_issue,flag_retrieval_guardrail,flag_scaffolding_guardrail,flag_engagement_guardrail,flag_load_guardrail,overall_mean_after_guardrails
+report(edcafe),3,3,2,2,3,2,2,3,2,3,2,2,3,3,2,3,2,True,False,True,True,False,2.4705882352941178
+report(radius),3,2,2,3,3,2,2,2,1,2,1,2,3,1,1,3,1,True,True,True,True,True,2.0
+report(eduaide),3,4,2,3,3,2,3,4,2,3,3,2,3,2,1,2,3,True,False,False,True,True,2.6470588235294117
+report(slidesgo),3,3,2,2,3,2,2,3,1,2,2,1,2,1,1,2,1,True,True,True,True,True,1.9411764705882353
+report(brisk),3,3,2,2,3,2,2,3,2,3,2,2,3,3,2,3,2,True,False,True,True,False,2.4705882352941178
+report(GPT-5),3,3,2,3,3,2,2,3,1,2,2,1,2,3,1,3,2,True,True,True,True,True,2.235294117647059
+report(khamingo),3,4,2,4,3,4,2,3,1,2,3,2,3,4,1,4,3,True,True,False,False,True,2.823529411764706
+report(autoclassmate),3,3,2,3,3,2,2,3,2,3,2,2,3,2,1,3,2,True,False,True,True,True,2.411764705882353

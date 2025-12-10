@@ -1,0 +1,4 @@
+model,A,B,C,D,E,F,G,flag_sequencing_issue,flag_retrieval_guardrail,flag_scaffolding_guardrail,flag_engagement_guardrail,flag_load_guardrail,overall_mean_after_guardrails
+khanmigo,1,2,2,3,1,1,1,True,True,False,True,True,1.6666666666666667
+gpt-5,3,3,2,3,1,3,1,False,True,False,True,True,2.5
+eduaide,3,3,2,3,1,3,1,False,True,False,True,True,2.5

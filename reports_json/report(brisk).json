@@ -1,0 +1,90 @@
+{
+  "criteria": {
+    "A1": {
+      "band": 3,
+      "evidence": "The learning objective is clearly stated: 'By the end of this lesson, students will be able to explain the physiological effects of spaceflight on the human body, analyze the significance of the 2024 Nature publication suite for space medicine research, and evaluate the implications of these findings for future interplanetary missions.'",
+      "notes": ""
+    },
+    "A2": {
+      "band": 3,
+      "evidence": "The lesson plan aligns with the NY College and Career Readiness Standards (CCRS) for scientific inquiry, data analysis, and critical thinking in STEM disciplines. The learning activities are designed to assess students' ability to explain physiological effects, analyze research significance, and evaluate implications.",
+      "notes": ""
+    },
+    "A3": {
+      "band": 2,
+      "evidence": "The lesson plan has a clear structure with a lecture (15 minutes), group activity (25 minutes), presentations (12 minutes), class discussion and debrief (5 minutes), and wrap-up and assessment (3 minutes). However, the timings seem somewhat arbitrary.",
+      "notes": ""
+    },
+    "B1": {
+      "band": 2,
+      "evidence": "The lesson plan includes a mix of constructive/interactive modes (group activity, presentations) and passive/active modes (lecture). However, there is no clear indication of the proportion of time spent in each mode.",
+      "notes": ""
+    },
+    "B2": {
+      "band": 3,
+      "evidence": "The lesson plan includes generative tasks (group activity, presentations) that require students to explain and analyze research findings. The rubric for group presentations also expects new ideas and links.",
+      "notes": ""
+    },
+    "B3": {
+      "band": 2,
+      "evidence": "The lesson plan includes some whole-class participation mechanisms (presentations), but there is no clear indication of structured group work with roles and joint products.",
+      "notes": ""
+    },
+    "C1": {
+      "band": 2,
+      "evidence": "The lesson plan includes two retrieval episodes (group activity, presentations) with some high-effort formats (presentations). However, there is no clear indication of distinct retrieval episodes or high-effort formats.",
+      "notes": ""
+    },
+    "C2": {
+      "band": 3,
+      "evidence": "The lesson plan includes formative checks (group activity, presentations) with immediate use and task-focused feedback time. The rubric for group presentations also expects students to provide clear explanations and analysis.",
+      "notes": ""
+    },
+    "C3": {
+      "band": 2,
+      "evidence": "The lesson plan includes some spacing between retrievals (group activity, presentations), but there is no clear indication of planned delayed cumulative checks or later quizzes that include prior content.",
+      "notes": ""
+    },
+    "D1": {
+      "band": 3,
+      "evidence": "The lesson plan includes a 'we do' phase with timed and scaffolded tasks during the group activity. The instructor also provides guidance and clarification during this time.",
+      "notes": ""
+    },
+    "D2": {
+      "band": 2,
+      "evidence": "The lesson plan mentions scaffolds (sentence stems, checklists) but does not provide explicit plans to fade supports or provoke self-explanation.",
+      "notes": ""
+    },
+    "D3": {
+      "band": 2,
+      "evidence": "The lesson plan includes independent tasks that mirror models during the group activity. However, there is no clear indication of a circulation/monitoring plan with error interception.",
+      "notes": ""
+    },
+    "E1": {
+      "band": 3,
+      "evidence": "The lesson plan has a simple→complex progression (lecture, group activity, presentations) and isolates hard elements before integration. However, there is no clear indication of optional goal-free early tasks.",
+      "notes": ""
+    },
+    "E2": {
+      "band": 3,
+      "evidence": "The lesson plan includes integrated materials (article excerpt, supplementary materials) with some signaling (instructor guidance). However, there is no clear indication of concise on-screen text or narration aligned with visuals.",
+      "notes": ""
+    },
+    "E3": {
+      "band": 2,
+      "evidence": "The lesson plan includes some early probe and novices getting more guidance. However, there is no clear indication of supports fading or quick effort/load checks triggering specific adjustments.",
+      "notes": ""
+    },
+    "F1": {
+      "band": 3,
+      "evidence": "The lesson plan includes multiple means of representation (article excerpt, supplementary materials) and engagement (group activity, presentations). However, there is no clear indication of proactive accommodations for accessibility.",
+      "notes": ""
+    },
+    "F2": {
+      "band": 2,
+      "evidence": "The lesson plan includes some error-friendly norms (instructor guidance during group activity) and progress tracking (rubric for group presentations). However, there is no clear indication of structured reflection linked to ILOs informing next steps.",
+      "notes": ""
+    }
+  },
+  "global_notes": ""
+}
