@@ -182,7 +182,7 @@ ULPR_CRITERIA: List[Criterion] = [
     Criterion(
         code="C1",
         name="Retrieval Density & Effort",
-        weight=6,
+        weight=5,
         description=(
             "Distinct retrieval episodes (≥2–3) with high-effort formats (free recall, short-answer, no-notes problems)."
         ),
@@ -198,7 +198,7 @@ ULPR_CRITERIA: List[Criterion] = [
     Criterion(
         code="C2",
         name="Formative Checks & Actionable Feedback",
-        weight=7,
+        weight=5,
         description=(
             "Aligned exit tickets/mini-quizzes/oral checks with immediate use (reteach/regroup/next task) and task-focused feedback time."
         ),
@@ -214,7 +214,7 @@ ULPR_CRITERIA: List[Criterion] = [
     Criterion(
         code="C3",
         name="Spacing, Delayed Checks & Cumulative Coverage",
-        weight=7,
+        weight=5,
         description=(
             "In-lesson spacing between retrievals; planned delayed cumulative checks (≈2 days & 1 week); later quizzes include prior content."
         ),
@@ -282,7 +282,7 @@ ULPR_CRITERIA: List[Criterion] = [
     Criterion(
         code="E1",
         name="Intrinsic Load Sequencing",
-        weight=3,
+        weight=4,
         description=(
             "Simple→complex progression; isolate hard elements before integration; optional goal‑free early tasks."
         ),
@@ -298,7 +298,7 @@ ULPR_CRITERIA: List[Criterion] = [
     Criterion(
         code="E2",
         name="Extraneous Load Minimization & Modality",
-        weight=5,
+        weight=6,
         description=(
             "Integrated materials (no split‑attention); signaling; concise on‑screen text; narration aligned with visuals; brief processing pauses."
         ),
@@ -314,7 +314,7 @@ ULPR_CRITERIA: List[Criterion] = [
     Criterion(
         code="E3",
         name="Expertise Adaptation & Load Monitoring",
-        weight=4,
+        weight=5,
         description=(
             "Early probe; novices get more guidance; supports fade; quick effort/load checks (e.g., 1–9) trigger specific adjustments."
         ),
@@ -348,7 +348,7 @@ ULPR_CRITERIA: List[Criterion] = [
     Criterion(
         code="F2",
         name="Culture of Success & Reflection",
-        weight=3,
+        weight=5,
         description=(
             "Error‑friendly norms; progress tracking; structured reflection linked to ILOs informs next steps."
         ),

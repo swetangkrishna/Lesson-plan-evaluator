@@ -1,106 +1,98 @@
-# Exploring AI Literacy: Concepts and Real-World Applications
+Decode AI: Real-World Applications Today
 
-## Learning Objectives
+Learning Objectives
+By the end of the lesson, students should be able to:
+Define AI literacy in their own words and explain its importance in professional and civic contexts.
+Identify and describe at least three distinct real-world use cases of AI across different industries.
+Evaluate ethical and practical implications of a chosen AI use case and propose one recommendation for responsible use.
+Vocabulary
+Artificial Intelligence (AI) - Machines performing tasks that require human-like intelligence.
+Machine Learning - Algorithms that learn patterns from data to make predictions.
+Model - A mathematical or computational representation used to make predictions.
+Training Data - Examples used to teach a model how to perform a task.
+Supervised Learning - Learning from labeled examples to map inputs to outputs.
+Unsupervised Learning - Finding patterns in unlabeled data.
+Natural Language Processing (NLP) - Techniques for computers to understand human language.
+Bias - Systematic error in data or models that leads to unfair outcomes.
+Automation - Using technology to perform tasks without continuous human input.
+Explainability - How well a model’s decisions can be interpreted by humans.
+Essential Questions
+How does understanding AI change the way we evaluate products and services in different industries?
+What responsibilities do organizations and individuals have when deploying AI systems that affect people?
+How can we balance the benefits of AI-driven automation with risks like bias, privacy loss, or job disruption?
+Lesson Procedure
+Opening Hook
 
-By the end of this lesson, students should be able to:
+Student-facing activity:
+Think of one app, website, or device you used today that might use AI. Write its name and one way it might be using AI.
+Teacher guidance:
+Pose the prompt publicly and allow 2-3 volunteers to share examples.
+Record 6-8 examples on the board spanning different sectors (healthcare, finance, education, retail, transportation, media).
+Use this list to link to later examples and spark interest.
+Direct Instruction
 
-- Define AI literacy and explain its importance in modern contexts.
-- Identify and describe various AI use cases across multiple industries.
-- Critically analyze the social, ethical, and practical implications of AI applications in real-world scenarios.
+Student-facing content:
+Short definitions: AI literacy, machine learning, model, training data, bias, explainability.
+Present three industry use cases with concrete, specific details:
+Healthcare - diagnostic imaging assistance: models trained on medical images to flag anomalies, support clinician decision-making, speed triage.
+Finance - fraud detection: real-time transaction monitoring models that identify anomalous patterns to block or flag suspicious transactions.
+Retail/Customer Experience - recommendation systems: models that analyze past purchases and browsing to personalize product suggestions.
+Additional brief examples: autonomous vehicles (transportation), automated résumé screening (HR), chatbots for customer service (services), predictive maintenance (manufacturing).
+Teacher guidance:
+Use short, concrete stories for each use case (for example, describe a patient pathway where AI helps prioritize urgent scans).
+Display one slide or whiteboard diagram per use case showing Inputs - Model - Outputs - Human role.
+Emphasize limits: models need quality training data, can reflect biases, and require human oversight.
+Guided Practice
 
-## Standard(s) Alignment
+Student-facing activity:
+In small groups (3-4), students pick one use case from the Direct Instruction list.
+Each group completes the following 3-step worksheet together:
+Describe how AI is used - inputs, model behavior, outputs.
+List two benefits for users/organizations.
+Identify two potential risks or ethical concerns and one way to mitigate each.
+Teacher guidance:
+Circulate, listen, and prompt groups with probing questions: "What data does the model need? Who provides the data? Who is affected by errors?"
+After 12-18 minutes, invite 3 groups to present a 2-minute summary of their answers.
+Provide corrective feedback and highlight strong mitigation strategies (data audits, human-in-the-loop, transparency notices).
+Independent Practice
 
-This lesson aligns with the NY College and Career Readiness Standards (CCRS) by:
+Student-facing task:
+Individually, students write a one-page brief (approx. 300-400 words) that:
+Defines AI literacy in their own words.
+Describes one chosen AI use case (different from the group’s if possible), including inputs, stakeholders, and one concrete recommendation to improve responsible use.
+The brief must include at least one ethical implication and a specific mitigation recommendation.
+Teacher guidance:
+Provide a simple rubric: clear definition (30%), accurate description of use case (40%), viable recommendation and ethical consideration (30%).
+Allow class time to begin the brief and ask students to finish as homework if needed.
+Closing
 
-- Developing critical thinking and analytical skills through evaluation of AI technologies and their impacts.
-- Enhancing digital literacy and understanding of emerging technologies essential for college and career readiness.
-- Encouraging ethical reasoning and responsible use of technology in societal contexts.
-
-## Vocabulary
-
- 1. **Artificial Intelligence (AI)** – Machines simulating human intelligence processes.
- 2. **Machine Learning** – AI method where systems learn from data patterns.
- 3. **Algorithm** – A set of rules or instructions for solving a problem.
- 4. **Data Mining** – Extracting useful information from large datasets.
- 5. **Natural Language Processing (NLP)** – AI that understands and processes human language.
- 6. **Automation** – Using technology to perform tasks without human intervention.
- 7. **Bias** – Prejudice in AI outputs due to skewed data or design.
- 8. **Ethics** – Moral principles guiding technology use and development.
- 9. **Use Case** – Specific application or scenario where AI is employed.
-10. **Impact Analysis** – Examining consequences of AI on society and industries.
-
-## Essential Questions
-
-1. How does AI literacy empower individuals to navigate a technology-driven world?
-2. In what ways do AI applications transform different industries, and what challenges do they present?
-3. What ethical considerations should guide the development and deployment of AI technologies?
-
-## Lesson Procedure
-
-### Total Duration: 90 minutes
-
-#### Opening Hook (10 minutes)
-
-- Begin with a provocative question: *“Imagine a world where AI makes all decisions for us. What benefits and risks do you foresee?”*
-- Facilitate a brief think-pair-share where students discuss their ideas with a partner.
-- Share a short video clip or infographic highlighting surprising AI applications in daily life.
-
-#### Direct Instruction (25 minutes)
-
-- Present a clear definition of AI literacy and why it matters today.
-- Introduce key AI concepts and terminology using visuals and real-world examples.
-- Highlight diverse AI use cases across industries such as healthcare, finance, transportation, and entertainment.
-- Discuss potential positive and negative impacts of AI in these contexts, emphasizing ethical considerations.
-
-#### Guided Practice (20 minutes)
-
-- Divide students into small groups; assign each group an industry sector (e.g., healthcare, finance, education).
-- Provide a brief case study or scenario describing an AI application in that sector.
-- Groups analyze the use case focusing on: purpose, benefits, risks, and ethical questions.
-- Groups prepare a 3-minute presentation summarizing their analysis.
-
-#### Independent Practice (20 minutes)
-
-- Students individually write a reflective response addressing: 
-  - Which AI use case they found most impactful and why.
-  - What ethical challenges they think are most critical in AI deployment.
-- Encourage citing examples from group presentations or direct instruction.
-
-#### Closing (15 minutes)
-
-- Groups present their case study analyses to the class.
-- Facilitate a whole-class discussion reflecting on common themes and divergent viewpoints.
-- Summarize key takeaways about AI literacy and its importance in understanding technology’s role in society.
-
-## Extension Activities & Assessments
-
-### Differentiated Activities
-
-- **Below Grade Level (Support):**
-  - Provide a simplified glossary of AI terms with visual aids.
-  - Assign a guided worksheet with sentence starters for the reflective writing.
-- **At Grade Level (Core):**
-  - Engage in group case study analysis and presentations as outlined.
-  - Write a structured reflection on AI use cases and ethics.
-- **Above Grade Level (Extension):**
-  - Research and present an emerging AI technology not covered in class.
-  - Develop a short ethical guideline proposal for AI use in a chosen industry.
-
-### Assessments
-
-- **Formative:**
-  - Observation of group discussions and presentations for understanding of AI concepts and implications.
-  - Review of reflective writing for depth of analysis and connection to lesson objectives.
-- **Summative:**
-  - A short essay or project analyzing an AI use case, including ethical considerations and societal impact.
-
-## Reflections
-
-1. Were students actively engaged in discussions and group activities?
-2. Did students demonstrate clear understanding of AI literacy and its real-world applications?
-3. How effectively did the lesson address ethical considerations and critical thinking about AI?
-
-## Homework
-
-1. Research an AI application in a new industry and prepare a one-page summary explaining its use and potential impacts.
-2. Reflect on how AI might influence your future career or daily life and write a brief paragraph describing your thoughts.
+Student-facing reflection:
+Post one-sentence exit ticket: What is one new thing you learned about AI use cases and one question you still have?
+Teacher guidance:
+Collect exit tickets as students leave or submit digitally.
+Read 6-8 exit tickets quickly to adjust next lesson’s focus on misconceptions or unanswered questions.
+Extension Activities & Assessments
+Differentiated Activities
+Below Grade Level (Support):
+Provide a completed example brief and ask students to highlight the use case elements and mitigation steps.
+Pair with a stronger peer for a scaffolded group worksheet where roles are explicit (recorder, reporter, researcher).
+At Grade Level (Core):
+Complete the independent one-page brief using rubric, plus a short peer review exchange with two classmates providing feedback.
+Prepare a 3-minute in-class presentation summarizing the brief and recommended mitigation.
+Above Grade Level (Extension):
+Conduct a short mini-research: find a recent news article about an AI deployment, analyze the technical and ethical elements, and write a 2-page critique with citations.
+Design a simple conceptual flowchart or pseudocode for how a chosen AI system could incorporate explainability or fairness checks.
+Assessments
+Formative:
+Group worksheet review during Guided Practice - teacher notes on understanding of inputs/outputs and ethical awareness.
+Exit ticket summarizing one new learning and one question - quick check for misconceptions and engagement.
+Summative:
+Individual one-page brief graded with rubric measuring the three objectives: definition of AI literacy, description of at least three industry attributes via chosen use case, and a recommendation addressing ethical/practical implications.
+Optional extended summative - 5-minute oral presentation of brief with Q&A to assess depth of reasoning and communication.
+Reflections
+Did students produce clear, distinct definitions of AI literacy and demonstrate meaningful differences between the use cases?
+Which groups struggled with identifying real risks or mitigation strategies, and what scaffolds would help next time?
+How effectively did the lesson connect technical descriptions to ethical implications - should more concrete examples or data visualizations be added?
+Homework
+Find one real news item or company blog describing an AI system. Write a 200-word summary stating the industry, the AI functionality, one potential benefit, and one risk.
+Optional - create a one-slide visual (single image or diagram) that shows Inputs - Model - Outputs - Human role for the system you summarized.
