@@ -2,87 +2,87 @@
   "criteria": {
     "A1": {
       "band": 3,
-      "evidence": "The lesson plan includes SMARTIE outcomes (define AI literacy, identify various use cases of AI across different industries, and critically analyze the implications of these use cases in real-world contexts) with clear criteria.",
+      "evidence": "The objective states that students will 'define AI literacy in their own words' and 'identify at least three distinct, industry-spanning AI use cases', which are measurable outcomes. The success criteria for the assessment task also provide clear expectations.",
       "notes": ""
     },
     "A2": {
       "band": 3,
-      "evidence": "The lesson plan includes alignment between learning objectives (define AI literacy, identify various use cases of AI across different industries, and critically analyze the implications of these use cases in real-world contexts) and assessment tasks (exit ticket + micro-quiz).",
+      "evidence": "The lesson plan includes a mix of learning activities (think-pair-share, mini-poll prompts, working definition, core components) and assessments (quick check, rubric). The activities are aligned with the outcomes, but there is no explicit mapping between the TLAs and assessment tasks.",
       "notes": ""
     },
     "A3": {
       "band": 2,
-      "evidence": "The lesson plan includes a coherent sequence (hook, definitions & scope, group activity, short presentations, class discussion & debrief, wrap-up & assessment) but with minor issues in step design.",
+      "evidence": "The lesson plan has a coherent sequence of learning activities (activate prior knowledge → model → guided → independent), but the timings are not realistic, and there is no clear indication of small steps or worked examples.",
       "notes": ""
     },
     "B1": {
       "band": 3,
-      "evidence": "The lesson plan includes a mix of interactive and constructive modes (group activity, short presentations, class discussion & debrief), aiming for ≥50% C+I with some I.",
+      "evidence": "The lesson plan includes a mix of Constructive/Interactive modes (think-pair-share, mini-poll prompts) and Passive/Active activities (slides, one-page scenarios). However, the time allocated to each activity is not specified.",
       "notes": ""
     },
     "B2": {
       "band": 3,
-      "evidence": "The lesson plan includes generative tasks and prompts that require explain/justify/compare/predict (group activity, short presentations, class discussion & debrief).",
+      "evidence": "The lesson plan includes generative tasks (Use-Case Canvas) that require students to explain and justify their answers. The rubric for the assessment task also expects new ideas and links, not copies.",
       "notes": ""
     },
     "B3": {
       "band": 2,
-      "evidence": "The lesson plan includes some whole-class participation and interactivity (quick poll, group activity, short presentations), but with weak interdependence.",
+      "evidence": "The lesson plan includes some all-student response routines (mini-poll prompts) but lacks structured group work with roles and joint products. The instructor support is limited to circulating and probing for metrics, risks, and governance.",
       "notes": ""
     },
     "C1": {
       "band": 2,
-      "evidence": "The lesson plan includes one substantial retrieval or mix with low effort (exit ticket + micro-quiz).",
+      "evidence": "The lesson plan includes one substantial retrieval (quick check) but lacks high-effort formats (free recall, short-answer). The assessment task also has a mix of low- and high-effort questions.",
       "notes": ""
     },
     "C2": {
       "band": 3,
-      "evidence": "The lesson plan includes aligned exit tickets/mini-quizzes/oral checks with immediate use and task-focused feedback time.",
+      "evidence": "The lesson plan includes aligned exit tickets/mini-quizzes/oral checks with immediate use (instructor support, circulation) and task-focused feedback time. However, the feedback plan is not explicitly stated.",
       "notes": ""
     },
     "C3": {
-      "band": 1,
-      "evidence": "The lesson plan does not include in-lesson spacing between retrievals or planned delayed cumulative checks (≈2 days & 1 week).",
+      "band": 2,
+      "evidence": "The lesson plan lacks in-lesson spacing between retrievals and planned delayed cumulative checks (≈2 days & 1 week). The assessment task also does not include prior content.",
       "notes": ""
     },
     "D1": {
-      "band": 2,
-      "evidence": "The lesson plan includes clear worked examples and specific guided tasks with timing, but no contrasting/common-error example.",
+      "band": 3,
+      "evidence": "The lesson plan includes full worked examples (core components) and a timed, scaffolded 'we do' phase (Industry Jigsaw activity). However, the sequencing is not explicitly stated.",
       "notes": ""
     },
     "D2": {
       "band": 2,
-      "evidence": "The lesson plan includes specific artifacts attached to tasks (AI Use-Case Canvas), but no explicit plan to fade supports and provoke self-explanation.",
+      "evidence": "The lesson plan includes some scaffolds (Use-Case Canvas) but lacks explicit plans to fade supports and provoke self-explanation. The instructor support is limited to circulating and probing for metrics, risks, and governance.",
       "notes": ""
     },
     "D3": {
-      "band": 1,
-      "evidence": "The lesson plan does not include independent tasks that mirror models or a circulation/monitoring plan with error interception.",
+      "band": 2,
+      "evidence": "The lesson plan includes independent tasks (Industry Jigsaw activity) but lacks a clear circulation/monitoring plan with error interception. The assessment task also does not include monitoring or feedback.",
       "notes": ""
     },
     "E1": {
-      "band": 2,
-      "evidence": "The lesson plan includes some segmentation and isolate then integrate, but major topics are still overloaded.",
+      "band": 3,
+      "evidence": "The lesson plan has a simple→complex progression (core components → Industry Jigsaw activity) but lacks explicit scaffolding and goal-free early tasks.",
       "notes": ""
     },
     "E2": {
-      "band": 3,
-      "evidence": "The lesson plan includes integrated materials (no split-attention) with concise on-screen text and narration aligned with visuals.",
+      "band": 2,
+      "evidence": "The lesson plan includes some integrated materials (slides, one-page scenarios) but lacks concise on-screen text, narration aligned with visuals, and brief processing pauses. The instructor support is limited to circulating and probing for metrics, risks, and governance.",
       "notes": ""
     },
     "E3": {
-      "band": 1,
-      "evidence": "The lesson plan does not include early probe, novices get more guidance, supports fade, or quick effort/load checks (e.g., 1–9) trigger specific adjustments.",
+      "band": 2,
+      "evidence": "The lesson plan includes some early probe (mini-poll prompts) but lacks explicit supports fading and quick effort/load checks. The instructor support is limited to circulating and probing for metrics, risks, and governance.",
       "notes": ""
     },
     "F1": {
       "band": 3,
-      "evidence": "The lesson plan includes multiple means of representation/action/engagement with clear instructions and proactive accommodations (captions/alt text/contrast).",
+      "evidence": "The lesson plan includes multiple means of representation/action/engagement (slides, one-page scenarios, Use-Case Canvas) but lacks clear instructions and proactive accommodations. The instructor support is limited to circulating and probing for metrics, risks, and governance.",
       "notes": ""
     },
     "F2": {
-      "band": 2,
-      "evidence": "The lesson plan includes some tracking or brief reflection, but limited link to ILOs.",
+      "band": 3,
+      "evidence": "The lesson plan includes some error-friendly norms (instructor support, circulation) but lacks structured reflection linked to ILOs. The assessment task also does not include progress tracking or reflection.",
       "notes": ""
     }
   },

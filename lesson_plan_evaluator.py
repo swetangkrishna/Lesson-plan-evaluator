@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Unified Lesson Plan Evaluator (ULPR)
+comprehensive Lesson Plan Evaluator (CLPR)
 ====================================
 
 Combines and de-duplicates 8 research-grounded rubrics into a single
@@ -18,7 +18,7 @@ Backends supported (choose one):
 Quick start (Ollama):
   1) Install & run Ollama: https://ollama.com
   2) Pull a chat model, e.g.:   `ollama pull llama3.1`
-  3) Run:  python ulpr_lesson_plan_evaluator.py \
+  3) Run:  python CLPR_lesson_plan_evaluator.py \
             --lesson path/to/lesson.md \
             --backend ollama --model llama3.1 \
             --md-out report.md --json-out report.json
@@ -50,7 +50,7 @@ except Exception:
 # Optional HF imports will be attempted only if backend=="hf"
 
 # -------------------------
-# Unified Rubric Definition
+# comprehensive Rubric Definition
 # -------------------------
 
 @dataclasses.dataclass
@@ -72,9 +72,9 @@ BAND_DEFS = [
     "4 – Exemplary: comprehensive, explicit, with routines/tools and verification.",
 ]
 
-# ULPR criteria — deduplicated & mapped back to the provided metrics.
+# CLPR criteria — deduplicated & mapped back to the provided metrics.
 # Weights sum to 100.
-ULPR_CRITERIA: List[Criterion] = [
+CLPR_CRITERIA: List[Criterion] = [
     # A. Outcomes & Alignment (25)
     Criterion(
         code="A1",
@@ -368,7 +368,7 @@ ULPR_CRITERIA: List[Criterion] = [
 # -------------------------
 
 SYSTEM_PROMPT = (
-    "You are an expert rater of lesson plans. Score using the Unified Lesson Plan Rubric (ULPR) with bands 0–4. "
+    "You are an expert rater of lesson plans. Score using the comprehensive Lesson Plan Rubric (CLPR) with bands 0–4. "
     "Use only evidence visible in the plan. If evidence is missing or vague, choose the lower band. "
     "Return ONLY a single valid JSON object (no prose, no markdown). "
     "You MUST include ALL criterion codes exactly once: A1, A2, A3, B1, B2, B3, C1, C2, C3, D1, D2, D3, E1, E2, E3, F1, F2."
@@ -404,11 +404,11 @@ def build_user_prompt(lesson_text: str) -> str:
             f"Bands:\n{notes}\n"
         )
 
-    rubric_text = "\n".join(crit_block(c) for c in ULPR_CRITERIA)
+    rubric_text = "\n".join(crit_block(c) for c in CLPR_CRITERIA)
 
     schema_text = json.dumps(SCHEMA_SPEC, indent=2)
 
-    required_codes = [c.code for c in ULPR_CRITERIA]
+    required_codes = [c.code for c in CLPR_CRITERIA]
     skeleton = {
         "criteria": {code: {"band": 0, "evidence": "", "notes": ""} for code in required_codes},
         "global_notes": "",
@@ -416,7 +416,7 @@ def build_user_prompt(lesson_text: str) -> str:
     skeleton_text = json.dumps(skeleton, indent=2)
 
     prompt = f"""
-Score the following lesson plan using the Unified Lesson Plan Rubric (ULPR) with bands 0–4.
+Score the following lesson plan using the comprehensive Lesson Plan Rubric (CLPR) with bands 0–4.
 For each criterion code (A1..F2), choose ONE band (0–4) and provide 1–3 sentences of evidence quoted or paraphrased from the plan.
 If a claim (e.g., 'interactive' or 'alignment') is asserted but not operationalized with routines/tools/timing, score lower.
 
@@ -592,13 +592,13 @@ def apply_caps(ratings: Dict[str, RatedCriterion]) -> List[str]:
 
 def rate_from_model(raw: Dict[str, Any]) -> Tuple[Dict[str, RatedCriterion], List[str]]:
     """Convert model JSON into rated criteria; apply caps; return ratings and cap notes."""
-    criteria_map = {c.code: c for c in ULPR_CRITERIA}
+    criteria_map = {c.code: c for c in CLPR_CRITERIA}
     got = raw.get("criteria", {}) if isinstance(raw, dict) else {}
 
     ratings: Dict[str, RatedCriterion] = {}
     missing_codes: List[str] = []
 
-    for c in ULPR_CRITERIA:
+    for c in CLPR_CRITERIA:
         entry = got.get(c.code, {}) if isinstance(got, dict) else {}
         band = clamp_band(entry.get("band", 0))
         evidence = str(entry.get("evidence", ""))[:1200]
@@ -637,7 +637,7 @@ def format_markdown_report(
 ) -> str:
     total, by_section = totals(ratings)
 
-    header = f"# Unified Lesson Plan Report (ULPR)\n\nTotal: **{round(total)} / 100**\n\n"
+    header = f"# comprehensive Lesson Plan Report (CLPR)\n\nTotal: **{round(total)} / 100**\n\n"
 
     sec_titles = {
         "A": "Outcomes & Alignment",
@@ -691,7 +691,7 @@ def read_lesson_text(arg: str) -> str:
 
 
 def main(argv: Optional[List[str]] = None) -> int:
-    p = argparse.ArgumentParser(description="Unified Lesson Plan Evaluator (ULPR)")
+    p = argparse.ArgumentParser(description="comprehensive Lesson Plan Evaluator (CLPR)")
     p.add_argument("--lesson", required=True, help="Path to lesson plan text/markdown OR raw text")
     p.add_argument("--backend", choices=["ollama", "hf"], default="ollama")
     p.add_argument("--model", default="llama3.1", help="Model name (e.g., ollama: llama3.1; HF: Qwen/Qwen2.5-7B-Instruct)")
@@ -723,7 +723,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     report_md = format_markdown_report(ratings, cap_notes, model_json, lesson_excerpt=lesson_text[:3000])
 
     total, _ = totals(ratings)
-    print(f"\nULPR Total: {round(total)} / 100\n")
+    print(f"\nCLPR Total: {round(total)} / 100\n")
 
     if args.json_out:
         with open(args.json_out, "w", encoding="utf-8") as f:

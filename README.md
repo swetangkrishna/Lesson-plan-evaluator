@@ -2,30 +2,35 @@
 
 
 **Quick links**
-- [What this repo does](#what-this-repo-does)
-- [Why it matters](#why-it-matters)
-- [Features](#features)
-- [Acronyms (quick)](#acronyms-quick)
-- [ULPR at a glance (weights → 100)](#ulpr-at-a-glance-weights--100)
-- [Scoring](#scoring)
-- [Guardrails / Dependencies](#guardrails--dependencies)
-- [Indices (short list)](#indices-short-list)
-- [Quick start](#quick-start)
+- [Comparing AI-Agents for Lesson-Plan Generation](#comparing-ai-agents-for-lesson-plan-generation)
+  - [What this repo does](#what-this-repo-does)
+  - [Why it matters](#why-it-matters)
+  - [Features](#features)
+  - [Acronyms](#acronyms)
+  - [CLPR at a glance (weights → 100)](#clpr-at-a-glance-weights--100)
+  - [Scoring](#scoring)
+  - [Guardrails / Dependencies](#guardrails--dependencies)
+  - [Indices (short list)](#indices-short-list)
+    - [🔎 Indices legend (A1–F2)](#-indices-legend-a1f2)
+    - [📈 Band scores (0–4 per index) + Weighted Total (0–100)](#-band-scores-04-per-index--weighted-total-0100)
+    - [📊 Results](#-results)
+    - [📑 Per-report details (Scores \& Evidence)](#-per-report-details-scores--evidence)
+  - [Quick start](#quick-start)
 
 ---
 
 ## What this repo does
-- Evaluates lesson-plan generators (AI agents/LLMs) using a unified rubric (**ULPR**).
+- Evaluates lesson-plan generators (AI agents/LLMs) using a Comprehensive rubric (**CLPR**).
 - Extracts evidence from lesson text and maps it to **0–4 bands per strand**.
 - Outputs reports (**Markdown + JSON**) with strand scores and an overall **0–100**.
 - Documents how pedagogy maps to indices used by the evaluator.
 
 ## Why it matters
 - Most auto-generated lesson plans lack evaluable signals (alignment, **ICAP** engagement, formative use of evidence, retrieval & spacing, **CLT**-aware design).
-- **ULPR** gives a research-grounded, replicable way to compare agents/architectures.
+- **CLPR** gives a research-grounded, replicable way to compare agents/architectures.
 
 ## Features
-- ✅ **Unified Lesson Plan Rubric (ULPR)** with six strands and weights  
+- ✅ **Comprehensive Lesson Plan Rubric (CLPR)** with six strands and weights  
 - ✅ **Evidence extraction → banding (0–4) → points (0–100)**  
 - ✅ **Markdown and JSON** reports  
 - ✅ **Guardrails** (e.g., expertise reversal for CLT) and **dependency caps** (alignment → engagement/formative)
@@ -33,7 +38,7 @@
 ## Acronyms 
 - **AI**: Artificial Intelligence  
 - **LLM**: Large Language Model  
-- **ULPR**: Unified Lesson Plan Rubric  
+- **CLPR**: Comprehensive Lesson Plan Rubric  
 - **CA**: Constructive Alignment  
 - **ICAP**: Interactive–Constructive–Active–Passive (name kept to match manuscript/code)  
 - **RP**: Retrieval Practice  
@@ -44,7 +49,7 @@
 
 ---
 
-## ULPR at a glance (weights → 100)
+## CLPR at a glance (weights → 100)
 - **A. Outcomes & Alignment — 25**
 - **B. ICAP Engagement — 20**
 - **C. Formative Assessment — 15**
@@ -116,7 +121,7 @@
 
 ### 📊 Results
 
-| ULPR comparing all lesson planners' total score | ULPR comparing all lesson planners' per criteria score |
+| CLPR comparing all lesson planners' total score | CLPR comparing all lesson planners' per criteria score |
 |---|---|
 | ![all lesson planners' per criteria score](per_criteria_score.png) | ![all lesson planners data representation](data_pres.png) |
 

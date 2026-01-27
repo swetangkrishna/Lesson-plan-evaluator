@@ -1,132 +1,134 @@
 # Unified Lesson Plan Report (ULPR)
 
-Total: **52 / 100**
+Total: **62 / 100**
 
 
-## A. Outcomes & Alignment — 17 pts
+## A. Outcomes & Alignment — 21 pts
 
 **A1 SMARTIE Outcomes & Success Criteria** — band 3 → 6.0/8
 
-*Evidence:* The lesson plan includes specific outcomes such as 'define AI literacy' and 'critically analyze the implications of AI technologies'. The objectives are also clearly stated, but there is no explicit mention of inclusivity or equity within the outcomes.
+*Evidence:* The objective is clear and specific, with measurable verbs (define, identify, critically analyze). The key learning outcomes are also SMARTIE.
 
 
-**A2 Alignment: TLAs ↔ Outcomes ↔ Assessment** — band 3 → 6.8/9
+**A2 Alignment: TLAs ↔ Outcomes ↔ Assessment** — band 4 → 9.0/9
 
-*Evidence:* The learning objectives align with the lesson structure and activities. For example, the 'AI Use Cases Exploration' section matches the second objective to identify and explain AI use cases across different industries. However, there is no explicit mention of how these activities will be assessed.
+*Evidence:* Each key ILO has at least one learning activity (lecture, discussion, interactive element) and one assessment task (written assessment, presentation evaluation).
 
 
-**A3 Structure, Timing & Flow** — band 2 → 4.0/8
+**A3 Structure, Timing & Flow** — band 3 → 6.0/8
 
-*Evidence:* The lesson structure appears to follow a coherent sequence (activate prior knowledge → model → guided → independent), but the timings are not explicitly stated. The plan mentions '15 minutes' for the introduction, but there is no clear indication of how much time will be spent on each activity.
+*Evidence:* The lesson plan follows a coherent sequence (introduction, instruction, practice, assessment), with some realistic timings. However, the 'teach' blocks are still somewhat arbitrary.
 
 
 ## B. Engagement & Interaction — 12 pts
 
 **B1 ICAP Engagement Mix** — band 2 → 3.0/6
 
-*Evidence:* The lesson plan includes a mix of interactive and passive activities. The group discussion and presentation evaluation are examples of constructive/interactive modes, but the majority of the time is spent in passive/active mode.
+*Evidence:* There is a mix of constructive and interactive modes, but mostly passive/active. The lesson plan aims for ≥50% C+I with some I.
 
 
 **B2 Generative Tasks & Prompts** — band 3 → 4.5/6
 
-*Evidence:* The lesson plan includes some generative prompts such as 'analyze AI applications, benefits, and potential challenges' and 'prepare a 5-minute presentation on their findings'. However, the rubrics for these activities are not explicitly stated.
+*Evidence:* The prompts/tasks require explain/justify/compare/predict, and the rubrics expect new ideas/links, not copies. However, there is no systematic progression (infer→justify→predict).
 
 
 **B3 Whole-class Participation & Interactivity** — band 2 → 4.0/8
 
-*Evidence:* The lesson plan includes some whole-class participation such as group discussions and presentations. However, there is no explicit mention of how students will be encouraged to participate or how the teacher will monitor their engagement.
+*Evidence:* There are some all-student response routines (group discussion) and structured group work with roles and joint products. However, the interdependence is weak.
 
 
-## C. Retrieval & Assessment for Learning — 10 pts
+## C. Retrieval & Assessment for Learning — 8 pts
 
-**C1 Retrieval Density & Effort** — band 2 → 3.0/6
+**C1 Retrieval Density & Effort** — band 2 → 2.5/5
 
-*Evidence:* The lesson plan includes some retrieval opportunities such as the group presentation evaluation and individual reflection assignment. However, there is no explicit mention of high-effort formats or distinct retrieval episodes.
-
-
-**C2 Formative Checks & Actionable Feedback** — band 3 → 5.2/7
-
-*Evidence:* The lesson plan includes some formative checks such as the group presentation evaluation and individual reflection assignment. However, there is no explicit mention of how these results will be used to inform future instruction.
+*Evidence:* There is one substantial retrieval or mix with low effort (written assessment).
 
 
-**C3 Spacing, Delayed Checks & Cumulative Coverage** — band 1 → 1.8/7
+**C2 Formative Checks & Actionable Feedback** — band 3 → 3.8/5
 
-*Evidence:* There is no explicit mention of in-lesson spacing between retrievals or planned delayed cumulative checks.
+*Evidence:* There are some aligned exit tickets/mini-quizzes/oral checks, but the results are not used immediately.
 
 
-## D. Instructional Design & Scaffolding — 6 pts
+**C3 Spacing, Delayed Checks & Cumulative Coverage** — band 1 → 1.2/5
 
-**D1 Models/Worked Examples & Guided Practice** — band 2 → 3.0/6
+*Evidence:* There is no in-lesson spacing between retrievals; planned delayed cumulative checks (≈2 days & 1 week); later quizzes include prior content.
 
-*Evidence:* The lesson plan mentions 'worked examples' and 'guided practice', but there is no clear indication of how these will be implemented or timed.
+
+## D. Instructional Design & Scaffolding — 8 pts
+
+**D1 Models/Worked Examples & Guided Practice** — band 3 → 4.5/6
+
+*Evidence:* Full worked examples or think-alouds precede independence, and a timed, scaffolded 'we do' phase is present. However, there are no contrasting/common-error example and teacher prompts during circulation.
 
 
 **D2 Scaffolds & Fading (Generative)** — band 2 → 2.5/5
 
-*Evidence:* The lesson plan includes some scaffolds such as group discussion worksheets, but there is no explicit mention of an explicit plan to fade supports and provoke self-explanation.
+*Evidence:* There are specific artifacts attached (sentence stems, checklists) but not tied to tasks or with an explicit plan to fade supports.
 
 
 **D3 Independent Practice & Monitoring** — band 1 → 1.0/4
 
-*Evidence:* There is no explicit mention of independent tasks that mirror models or a circulation/monitoring plan with error interception.
+*Evidence:* Independent tasks mirror models; circulation/monitoring plan unclear.
 
 
-## E. Cognitive Load & Adaptation — 4 pts
+## E. Cognitive Load & Adaptation — 8 pts
 
-**E1 Intrinsic Load Sequencing** — band 2 → 1.5/3
+**E1 Intrinsic Load Sequencing** — band 2 → 2.0/4
 
-*Evidence:* The lesson plan mentions 'simple→complex progression', but there is no clear indication of how this will be implemented or if optional goal-free early tasks will be included.
-
-
-**E2 Extraneous Load Minimization & Modality** — band 1 → 1.2/5
-
-*Evidence:* There is no explicit mention of integrated materials, signaling, concise on-screen text, narration aligned with visuals, or brief processing pauses.
+*Evidence:* Some segmentation; major topics still overloaded. However, there is no clear simple→complex progression.
 
 
-**E3 Expertise Adaptation & Load Monitoring** — band 1 → 1.0/4
+**E2 Extraneous Load Minimization & Modality** — band 3 → 4.5/6
 
-*Evidence:* There is no explicit mention of early probes, novices getting more guidance, supports fading, or quick effort/load checks.
+*Evidence:* There are some integrated materials (multimedia presentation) and concise on-screen text. However, the narration is not aligned with visuals.
 
 
-## F. Inclusivity, Culture & Reflection — 3 pts
+**E3 Expertise Adaptation & Load Monitoring** — band 1 → 1.2/5
+
+*Evidence:* No early probe; novices get more guidance; supports fade; quick effort/load checks unclear.
+
+
+## F. Inclusivity, Culture & Reflection — 6 pts
 
 **F1 UDL & Accessibility** — band 2 → 2.5/5
 
-*Evidence:* The lesson plan includes some multiple means of representation/action/engagement such as group discussions and presentations. However, there is no explicit mention of proactive accommodations for students with disabilities.
+*Evidence:* There are some multiple means of representation/action/engagement (multimedia presentation, interactive element). However, the instructions are not clear for all.
 
 
-**F2 Culture of Success & Reflection** — band 1 → 0.8/3
+**F2 Culture of Success & Reflection** — band 3 → 3.8/5
 
-*Evidence:* There is no explicit mention of error-friendly norms, progress tracking, or structured reflection linked to ILOs.
+*Evidence:* Error-friendly norms; progress tracking; structured reflection linked to ILOs informs next steps. However, there is no evidence that reflection generates conceptual change.
 
 
 ---
 
 ### Lesson Plan (excerpt)
 
-Your lesson plan
-Introduction to AI Literacy and Its Use Cases. Objective: By the end of this lesson, students will be able to define AI literacy, identify various use cases of AI across different industries, and critically analyze the implications of these use cases
+Topic: Introduction to AI Literacy and Its Use Cases 
+format: 5-part lesson (objective, introduction, instruction, practice, assessment 
+objective: Students will define AI literacy, identify at least three distinct use cases of AI across industries.
 
-Lesson Overview
-Topic: Introduction to AI Literacy and Its Use Cases Target Audience: University Students
-Duration: 90 minutes
-Delivery Method: In-person classroom session
-
-Learning Objectives
 By the end of this lesson, students will be able to:
-1. Define AI literacy and its importance in the modern world
-2. Identify and explain AI use cases across different industries
-3. Critically analyze the ethical and practical implications of AI technologies 4. Understand the potential impact of AI on future professional landscapes
+- Define AI literacy and its importance in the modern technological landscape
+- Identify and explain at least three distinct use cases of AI across different industries
+- Critically analyze the potential impacts and ethical considerations of AI technologies
+- Develop an understanding of how AI is transforming various professional fields
 
-Materials Needed
-1. Laptop or computer with projection capabilities 2. Presentation slides
-3. Whiteboard and markers
-4. Handouts with AI use case scenarios
-5. Group discussion worksheets
-6. Optional: Short video clips demonstrating AI applications
+Key Learning Outcomes:
+1. Conceptual understanding of AI literacy
+2. Industry-specific AI application knowledge
+3. Critical thinking about AI's societal implications
 
-Lesson Structure
-I. Introduction (15 minutes):
-- Define AI literacy
-- Brief overview of AI's current landscape
-- Importance of understanding AI in modern …
+Lecture and Discussion Components:
+- Definition of AI Literacy:
+  * Understanding AI technologies
+  * Recognizing AI applications
+  * Ethical and critical thinking about AI
+
+- Key Concepts:
+  * What is Artificial Intelligence?
+  * Difference between AI, Machine Learning, and Deep Learning
+  * Historical context of AI development
+
+Interactive Element:
+- Group Discussion: 'AI in Our Daily…
